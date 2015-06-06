@@ -1,0 +1,54 @@
+@import "mixins";
+
+body {
+  height: 100%;
+}
+
+header {
+  height: 100%;
+  overflow: hidden;
+}
+
+.bannerbg {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background: url(/img/zilker-atx.jpg) center center no-repeat;
+          background-size: cover;
+  -webkit-background-size: cover;
+}
+
+.cta {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  @include translate(0, -100%);
+  text-align: center;
+}
+
+.cta > img {
+  display: inline;
+  vertical-align: middle;
+  padding: 0 1rem;
+  max-width: 90%;
+}
+
+.cta > :first-child {
+  border-right: 1px dotted black;
+}
+
+@media screen and (max-width: 850px) {
+  .cta > :first-child {
+    border-right: none;
+  }
+
+  .cta > img {
+    padding: 1rem;
+  }
+
+  .cta > :last-child {
+    max-height: 1.5rem;
+    display: block;
+    margin: 3rem auto 0;
+  }
+}
