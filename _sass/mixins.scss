@@ -6,6 +6,10 @@
           transform: $transforms;
 }
 
-@mixin translate ($x, $y) {
+@mixin translate($x, $y) {
    @include transform(translate($x, $y));
+}
+
+@mixin scale($factor) {
+  @include transform(scale($factor));
 }

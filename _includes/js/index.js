@@ -36,4 +36,5 @@
     if (current.fixed != previous.fixed)
       fixNav(current.fixed);
   });
+
 })();

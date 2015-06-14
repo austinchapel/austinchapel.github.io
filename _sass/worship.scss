@@ -1,0 +1,83 @@
+$spacing: 2rem;
+
+.info {
+  background: url(/img/argyle.png);
+  background-repeat: repeat;
+  color: white;
+}
+
+.info h2 {
+  font-size: $spacing;
+  font-family: Contrail One, Impact, sans;
+}
+
+.info p, .info ul, .info h2 {
+  margin: $spacing;
+}
+
+.info p, .info ul {
+  font-size: 1.1rem;
+}
+
+.side-by-side {
+  font-size: 0;
+}
+
+.side-by-side > * {
+  font-size: 1rem;
+  vertical-align: middle;
+  display: inline-block;
+  width: 50%;
+}
+
+.info.smaller-screen {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .info.smaller-screen {
+    display: block;
+  }
+
+  .info:not(.smaller-screen) {
+    display: none;
+  }
+
+  .info h2 {
+    margin-top: 0;
+    padding-top: $spacing;
+  }
+
+  .info img {
+    max-width: 95%;
+    margin: auto;
+    display: block;
+  }
+}
+
+.info li {
+  list-style: none;
+}
+
+.info li + li {
+  margin-top: 0.8em;
+}
+
+.info ul {
+  padding-left: 0;
+}
+
+.info a {
+  font-weight: bold;
+  color: white;
+  line-height: 1.5em;
+}
+
+.info a:visited {
+  color: white;
+}
+
+.info a:after {
+  content: ' \00bb';
+}
+
