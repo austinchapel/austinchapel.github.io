@@ -1,6 +1,14 @@
 ---
 ---
 
+// 3rd party
 @import "normalize";
+
+// libs
+@import "util";
+@import "nav";
+
+// pages
 @import "index";
 @import "worship";
+@import "events";

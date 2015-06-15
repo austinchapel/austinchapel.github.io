@@ -1,0 +1,11 @@
+{% assign class = '' %}
+
+{% if include.fixed %}
+  {% assign class = 'always-fixed' %}
+{% endif %}
+
+<nav class="{{ class }}">
+  <a href=/events/>Events</a>
+  <a href=#>About</a>
+  <a href=#>People</a>
+</nav>

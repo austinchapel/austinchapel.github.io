@@ -12,8 +12,7 @@ body {
   height: 100vh;
       background-position: center center;
         background-repeat: no-repeat;
-          background-size: cover;
-  -webkit-background-size: cover;
+  @include background-size-cover;
 }
 
 // 100vh on ios includes the browser chrome (cause that's useful? idk), so if
@@ -41,6 +40,11 @@ header.fullscreen {
 
 .bg-city {
   background-image: url(/img/austin-full.jpg);
+}
+
+.bg-concrete {
+  background: url(/img/concrete.png);
+  background-repeat: repeat;
 }
 
 .cta {
@@ -78,37 +82,7 @@ header.fullscreen {
   }
 }
 
-$nav-inter-link-spacing: 2rem;
-
-nav {
-  position: absolute;
-  bottom: 0;
-  left: -$nav-inter-link-spacing;
-  right: 0;
-  text-align: center;
-  background-color: #191919;
-}
-
-nav a {
-  text-decoration: none;
-  color: white;
-  line-height: 3rem;
-  font-size: 2rem;
-  font-family: Contrail One, Impact, sans;
-  text-transform: uppercase;
-  margin-left: $nav-inter-link-spacing;
-  vertical-align: middle;
-}
-
-@media screen and (max-width: 350) {
-  nav a {
-    margin-left: $nav-inter-link-spacing / 2;
-  }
-}
-
 .abstract {
-  background: url(/img/concrete.png);
-  background-repeat: repeat;
   padding: 5rem 2rem;
 }
 
@@ -124,7 +98,12 @@ p {
   letter-spacing: 0.2px;
 }
 
-@media screen and (max-width: 800px) {
+.abstract cite {
+  font-size: 1.3rem;
+  margin-right: 0;
+}
+
+@media screen and (max-width: $abstract-breakpoint) {
   .abstract {
     padding: 3rem 2rem;
   }
@@ -138,8 +117,8 @@ p {
 
 hr {
   content: " ";
-  height: 3rem;
-  background-color: #191919;
+  height: $nav-line-height;
+  background-color: $nav-background-color;
   margin: 0;
   border: 0;
 }
@@ -172,12 +151,6 @@ cite {
   }
 }
 
-.fixed, .always-fixed {
-  position: fixed;
-  top: 0;
-  bottom: initial;
-}
-
 .light {
   color: white;
 }
@@ -199,19 +172,5 @@ cite {
 
 .fullscreen {
   height: 100vh;
-}
-
-/* video::-webkit-media-controls { */
-/*     display:none !important; */
-/* } */
-
-/* utilities */
-
-.inline-block {
-  display: inline-block;
-}
-
-.hidden {
-  display: none;
 }
 

@@ -1,0 +1,17 @@
+.inline-block {
+  display: inline-block;
+}
+
+.hidden {
+  display: none;
+}
+
+// a.k.a. clearfix
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+}
+.group:after {
+    clear: both;
+}

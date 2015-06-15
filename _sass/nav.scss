@@ -1,0 +1,36 @@
+@import "variables";
+
+$nav-inter-link-spacing: 2rem;
+
+nav {
+  position: absolute;
+  bottom: 0;
+  left: -$nav-inter-link-spacing;
+  right: 0;
+  text-align: center;
+  background-color: $nav-background-color;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  line-height: $nav-line-height;
+  font-size: 2rem;
+  font-family: Contrail One, Impact, sans;
+  text-transform: uppercase;
+  margin-left: $nav-inter-link-spacing;
+  vertical-align: middle;
+}
+
+@media screen and (max-width: 350px) {
+  nav a {
+    margin-left: $nav-inter-link-spacing / 2;
+  }
+}
+
+.fixed, .always-fixed {
+  position: fixed;
+  top: 0;
+  bottom: initial;
+}
+

@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+{% include nav.html fixed=true %}
+
+<div class="banner-img"></div>
+
+<hr />
+
+<main role=main class="bg-concrete group">
+  <div class=abstract>
+    <p>
+      Let us consider how to stir up one another to love and good works, not
+      neglecting to meet together, as is the habit of some, but encouraging one
+      another
+
+      <cite>Hebrews 10:24-25</cite>
+    </p>
+  </div>
+
+  <hr />
+
+  {% for post in site.posts %}
+    <a class="group listing img-{% cycle 'left', 'right' %}" href="{{ post.url }}">
+      <img src={% cycle '/img/spire-full.jpg', '/img/hyde-park-theater.jpg' %} />
+      <span>{{ post.formatted-date }} {{ post.title }}</span>
+    </a>
+  {% endfor %}
+</main>

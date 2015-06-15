@@ -13,3 +13,8 @@
 @mixin scale($factor) {
   @include transform(scale($factor));
 }
+
+@mixin background-size-cover {
+  -webkit-background-size: cover;
+          background-size: cover;
+}
