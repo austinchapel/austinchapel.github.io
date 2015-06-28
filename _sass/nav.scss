@@ -16,10 +16,14 @@ nav a {
   color: white;
   line-height: $nav-line-height;
   font-size: 2rem;
-  font-family: Contrail One, Impact, sans;
+  font-family: $title-font-family;
   text-transform: uppercase;
   margin-left: $nav-inter-link-spacing;
   vertical-align: middle;
+}
+
+nav :nth-child(n + 4) {
+  display: none;
 }
 
 @media screen and (max-width: 350px) {
@@ -28,9 +32,8 @@ nav a {
   }
 }
 
-.fixed, .always-fixed {
+.fixed, .always-fixed, .always-fixed-nav nav {
   position: fixed;
   top: 0;
   bottom: initial;
 }
-

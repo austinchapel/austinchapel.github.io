@@ -8,6 +8,10 @@ body {
   height: 100%;
 }
 
+main.always-fixed-nav {
+  margin-top: $nav-line-height;
+}
+
 .fullscreen {
   height: 100vh;
       background-position: center center;
@@ -51,7 +55,7 @@ header.fullscreen {
   position: absolute;
   top: 50%;
   width: 100%;
-  @include translate(0, -100%);
+  @include translate(0, -70%);
   text-align: center;
 }
 
@@ -63,7 +67,7 @@ header.fullscreen {
 }
 
 .cta > :first-child {
-  border-right: 1px dotted black;
+  border-right: 1px dotted white;
 }
 
 @media screen and (max-width: 850px) {
@@ -76,9 +80,9 @@ header.fullscreen {
   }
 
   .cta > :last-child {
-    max-height: 1.5rem;
+    max-height: 6rem;
     display: block;
-    margin: 3rem auto 0;
+    margin: 1rem auto 0;
   }
 }
 
@@ -173,4 +177,3 @@ cite {
 .fullscreen {
   height: 100vh;
 }
-

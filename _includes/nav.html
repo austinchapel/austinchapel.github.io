@@ -5,7 +5,9 @@
 {% endif %}
 
 <nav class="{{ class }}">
-  <a href=/events/>Events</a>
-  <a href=#>About</a>
-  <a href=#>People</a>
+  {% for other_page in site.pages %}
+    {% if other_page.nav and other_page.url != page.url %}
+      <a href="{{ other_page.url }}">{{ other_page.nav.text }}</a>
+    {% endif %}
+  {% endfor %}
 </nav>
