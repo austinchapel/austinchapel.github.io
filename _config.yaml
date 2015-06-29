@@ -1,6 +1,7 @@
 sass:
   style: :compressed
-permalink: /:year/:month/:day/:title
+
+permalink: pretty
 
 defaults:
   -
@@ -17,4 +18,4 @@ defaults:
     scope:
       path: "js"
     values:
-      layout: ""
+      layout: null
