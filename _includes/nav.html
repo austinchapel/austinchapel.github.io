@@ -1,7 +1,9 @@
 {% assign class = '' %}
 
-{% if include.fixed %}
+{% if include.position == 'fixed' %}
   {% assign class = 'always-fixed' %}
+{% elsif include.position == 'static' %}
+  {% assign class = 'static' %}
 {% endif %}
 
 <nav class="{{ class }}">

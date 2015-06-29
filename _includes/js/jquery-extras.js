@@ -3,7 +3,7 @@
   // just mock it
   if (!$.fn.height)
     $.fn.height = function() {
-      var h = this[0].offsetHeight;
+      var h = this && this[0] && this[0].offsetHeight;
 
       return h == null?
         Math.max(document.documentElement.clientHeight, window.innerHeight || 0) :

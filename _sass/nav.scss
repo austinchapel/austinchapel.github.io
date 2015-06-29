@@ -11,6 +11,11 @@ nav {
   background-color: $nav-background-color;
 }
 
+nav.static {
+  position: static;
+  margin-left: -$nav-inter-link-spacing;
+}
+
 nav a {
   text-decoration: none;
   color: white;

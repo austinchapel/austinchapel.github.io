@@ -1,5 +1,61 @@
 @import "variables";
+@import "mixins";
 
 h1, h2, h3 {
   font-family: $title-font-family;
+}
+
+.bg {
+      background-position: center center;
+        background-repeat: no-repeat;
+  @include background-size-cover;
+}
+
+.fullscreen {
+  height: 100vh;
+}
+
+.halfscreen {
+  height: 50vh;
+}
+
+// 100vh on ios includes the browser chrome (cause that's useful? idk), so if
+// the fullscreen element is at the top of the page (i.e. the header), size it
+// to the containing element rather than the viewport
+header.fullscreen {
+  height: 100%;
+}
+
+.fullscreen--black {
+  background-color: black;
+}
+
+.bg-zilker {
+  background-image: url(/img/zilker-atx.jpg);
+}
+
+.bg-church {
+  background-image: url(/img/church-1920x1080.png);
+}
+
+.bg-cliffs {
+  background-image: url(/img/cliffs-full.jpg);
+}
+
+.bg-city {
+  background-image: url(/img/austin-full.jpg);
+}
+
+.bg-churches {
+  background-image: url(/img/churches.jpg);
+}
+
+.bg-concrete {
+  background: url(/img/concrete.png);
+  background-repeat: repeat;
+}
+
+.bg-argyle {
+  background: url(/img/argyle.png);
+  background-repeat: repeat;
 }

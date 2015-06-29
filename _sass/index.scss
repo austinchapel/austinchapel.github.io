@@ -12,45 +12,6 @@ body {
   margin-top: $nav-line-height;
 }
 
-.fullscreen {
-  height: 100vh;
-      background-position: center center;
-        background-repeat: no-repeat;
-  @include background-size-cover;
-}
-
-// 100vh on ios includes the browser chrome (cause that's useful? idk), so if
-// the fullscreen element is at the top of the page (i.e. the header), size it
-// to the containing element rather than the viewport
-header.fullscreen {
-  height: 100%;
-}
-
-.fullscreen--black {
-  background-color: black;
-}
-
-.bg-zilker {
-  background-image: url(/img/zilker-atx.jpg);
-}
-
-.bg-church {
-  background-image: url(/img/church-1920x1080.png);
-}
-
-.bg-cliffs {
-  background-image: url(/img/cliffs-full.jpg);
-}
-
-.bg-city {
-  background-image: url(/img/austin-full.jpg);
-}
-
-.bg-concrete {
-  background: url(/img/concrete.png);
-  background-repeat: repeat;
-}
-
 .cta {
   position: absolute;
   top: 50%;
@@ -95,11 +56,16 @@ p {
 }
 
 .abstract p {
-  max-width: 500px;
   font-size: 1.5rem;
-  margin: 0 auto;
   line-height: 1.9rem;
   letter-spacing: 0.2px;
+}
+
+.abstract > * {
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  max-width: 500px;
+  display: block;
 }
 
 .abstract cite {
@@ -116,6 +82,10 @@ p {
 @media screen and (max-width: 680px) {
   .abstract {
     padding: 1rem;
+  }
+
+  .abstract img {
+    max-width: 100%;
   }
 }
 
@@ -149,6 +119,7 @@ cite {
   blockquote {
     font-size: 2rem;
   }
+
   cite {
     font-size: 1.5rem;
     margin-right: 2rem;
@@ -172,8 +143,4 @@ cite {
     font-size: 1.5rem;
     margin-right: 2rem;
   }
-}
-
-.fullscreen {
-  height: 100vh;
 }
