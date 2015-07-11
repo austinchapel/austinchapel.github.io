@@ -3,6 +3,17 @@ sass:
 
 permalink: pretty
 
+nav:
+-
+  text: Home
+  url: /
+-
+  text: People
+  url: /people/
+-
+  text: Events
+  url: /events/
+
 defaults:
   -
     scope:

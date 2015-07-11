@@ -7,9 +7,9 @@
 {% endif %}
 
 <nav class="{{ class }}">
-  {% for other_page in site.pages %}
-    {% if other_page.nav and other_page.url != page.url %}
-      <a href="{{ other_page.url }}">{{ other_page.nav.text }}</a>
+  {% for other_page in site.nav %}
+    {% if other_page.url != page.url %}
+      <a href="{{ other_page.url }}">{{ other_page.text }}</a>
     {% endif %}
   {% endfor %}
 </nav>

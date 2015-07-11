@@ -1,12 +1,19 @@
 ---
-nav:
-  text: Events
 body-classes: always-fixed-nav
 ---
 
 {% include nav.html %}
 
 <main role=main class="bg-concrete group">
+  {% for post in site.posts %}
+    <a class="group listing img-{% cycle 'left', 'right' %}" href="{{ post.url }}">
+      <img src={% cycle '/img/spire-full.jpg', '/img/hyde-park-theater.jpg' %} />
+      <span>{{ post.formatted-date }} {{ post.title }}</span>
+    </a>
+  {% endfor %}
+
+  <hr />
+
   <div class=abstract>
     <p>
       Let us consider how to stir up one another to love and good works, not
@@ -16,15 +23,6 @@ body-classes: always-fixed-nav
       <cite>Hebrews 10:24-25</cite>
     </p>
   </div>
-
-  <hr />
-
-  {% for post in site.posts %}
-    <a class="group listing img-{% cycle 'left', 'right' %}" href="{{ post.url }}">
-      <img src={% cycle '/img/spire-full.jpg', '/img/hyde-park-theater.jpg' %} />
-      <span>{{ post.formatted-date }} {{ post.title }}</span>
-    </a>
-  {% endfor %}
 </main>
 
 <hr />
