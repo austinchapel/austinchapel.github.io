@@ -12,11 +12,16 @@ body {
   margin-top: $nav-line-height;
 }
 
+.banner-contact {
+  font-size: 2rem;
+  margin: 2rem;
+}
+
 .cta {
   position: absolute;
   top: 50%;
   width: 100%;
-  @include translate(0, -70%);
+  @include translate(0, -80%);
   text-align: center;
 }
 
@@ -32,8 +37,13 @@ body {
 }
 
 @media screen and (max-width: 850px) {
+  .cta {
+    @include translate(0, -120%);
+  }
+
   .cta > :first-child {
     border-right: none;
+    display: none;
   }
 
   .cta > img {
@@ -44,6 +54,15 @@ body {
     max-height: 6rem;
     display: block;
     margin: 1rem auto 0;
+  }
+
+  .banner-contact {
+    float: none;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 50%;
+    margin: 0;
   }
 }
 

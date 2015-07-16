@@ -9,9 +9,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="75.313232mm"
-   height="43.085743mm"
-   viewBox="0 0 266.85789 152.66602"
+   width="52.412304mm"
+   height="58.849121mm"
+   viewBox="0 0 185.71287 208.52051"
    id="svg4340"
    version="1.1"
    inkscape:version="0.91 r13725"
@@ -26,8 +26,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.3441015"
-     inkscape:cx="87.956527"
-     inkscape:cy="104.44702"
+     inkscape:cx="6.8115048"
+     inkscape:cy="92.440588"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -56,7 +56,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-252.2646,-266.87741)">
+     transform="translate(-333.40962,-267.27292)">
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -68,15 +68,20 @@
          x="519.56195"
          y="306.64792"
          id="tspan4896"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:45px;font-family:Oswald;-inkscape-font-specification:Oswald;text-align:end;text-anchor:end">WHERE DO YOU</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:45px;font-family:Oswald;-inkscape-font-specification:Oswald;text-align:end;text-anchor:end">WHERE</tspan><tspan
          sodipodi:role="line"
          x="519.56195"
          y="362.89792"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:45px;font-family:Oswald;-inkscape-font-specification:Oswald;text-align:end;text-anchor:end"
+         id="tspan4173">DO YOU</tspan><tspan
+         sodipodi:role="line"
+         x="519.56195"
+         y="419.14792"
          id="tspan4898"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:45px;font-family:Oswald;-inkscape-font-specification:Oswald;text-align:end;text-anchor:end">FIND YOUR</tspan><tspan
          sodipodi:role="line"
          x="519.56195"
-         y="419.14792"
+         y="475.39792"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:45px;font-family:Oswald;-inkscape-font-specification:Oswald;text-align:end;text-anchor:end"
          id="tspan4175">CALLING?</tspan></text>
   </g>

@@ -6,6 +6,10 @@
   display: none;
 }
 
+.float-right {
+  float: right;
+}
+
 // a.k.a. clearfix
 .group:before,
 .group:after {

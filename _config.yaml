@@ -3,6 +3,9 @@ sass:
 
 permalink: pretty
 
+email: hello@austinmidtownchapel.org
+facebook: https://www.facebook.com/austinmidtownchapel
+
 nav:
 -
   text: Home
