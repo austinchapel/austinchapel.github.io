@@ -29,3 +29,11 @@ $logo-size: 1.5em;
     background-image: url(/img/logos/fb-negative.svg);
   }
 }
+
+.logo.insta {
+  background-image: url(/img/logos/insta.svg);
+
+  &:hover {
+    background-image: url(/img/logos/insta-negative.svg);
+  }
+}
