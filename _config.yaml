@@ -12,11 +12,14 @@ nav:
   text: Home
   url: /
 -
-  text: People
-  url: /people/
+  text: About
+  url: /about/
 -
   text: Events
   url: /events/
+-
+  text: Contact
+  url: /contact/
 
 defaults:
   -

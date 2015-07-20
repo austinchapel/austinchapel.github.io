@@ -1,3 +1,5 @@
+@import "mixins";
+
 .inline-block {
   display: inline-block;
 }
@@ -18,4 +20,8 @@
 }
 .group:after {
     clear: both;
+}
+
+.no-transition {
+  @include transition(all 0s linear !important);
 }

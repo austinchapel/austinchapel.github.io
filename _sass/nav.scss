@@ -1,19 +1,23 @@
 @import "variables";
+@import "mixins";
 
 $nav-inter-link-spacing: 2rem;
+
+// this really depends how many links we have. if we have the logo and then
+// more than 3 links, we'll need to increase this.
+$nav-breakpoint: 500px;
 
 nav {
   position: absolute;
   bottom: 0;
-  left: -$nav-inter-link-spacing;
+  left: 0;
   right: 0;
   text-align: center;
   background-color: $nav-background-color;
 }
 
 nav.static {
-  position: static;
-  margin-left: -$nav-inter-link-spacing;
+  position: relative; // heh...
 }
 
 nav a {
@@ -27,18 +31,125 @@ nav a {
   vertical-align: middle;
 }
 
-nav :nth-child(n + 4) {
-  display: none;
-}
-
-@media screen and (max-width: 350px) {
-  nav a {
-    margin-left: $nav-inter-link-spacing / 2;
-  }
-}
-
 .fixed, .always-fixed, .always-fixed-nav nav {
   position: fixed;
   top: 0;
   bottom: initial;
 }
+
+nav .logo.amc {
+  @include scale(0.75);
+}
+
+.nav-wrapper {
+  display: inline-block;
+  pointer-events: none;
+}
+
+.nav-menu {
+  pointer-events: auto;
+  background-color: $nav-background-color;
+  @include transition(all $nav-transition-duration ease-in-out);
+}
+
+nav.open  .nav-menu {
+  @include translate(0, 0);
+}
+
+.hamburger {
+  display: none;
+  @include appearance(none);
+  border-width: 0;
+  background-color: transparent;
+  width: $nav-line-height;
+  padding: 0;
+}
+
+.hamburger .line, .hamburger .ex {
+  position: absolute;
+  width: 60%;
+  height: 6.25%;
+  background-color: white;
+  @include translate(0, -50%);
+  @include transition(all $nav-transition-duration ease-in-out);
+}
+
+.hamburger .line {
+  top: 50%;
+  left: 20%;
+}
+
+.hamburger .ex:first-child {
+  @include transform(rotate(45deg) translate(5px, -11px));
+}
+
+.hamburger .ex:last-child {
+  @include transform(rotate(-45deg) translate(11px, 5px));
+}
+
+.ex {
+  opacity: 0;
+}
+
+nav.open .ex {
+  opacity: 100;
+}
+
+.hamburger .line:first-child {
+  top: 30%;
+}
+
+.hamburger .line:last-child {
+  top: 70%;
+}
+
+nav.open .hamburger .line {
+  opacity: 0;
+}
+
+@media screen and (max-width: $nav-breakpoint) {
+  .nav-wrapper {
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+
+    @include translate(0, -100%);
+
+    a {
+      display: block;
+      margin-left: 0;
+    }
+  }
+
+  nav.fixed .nav-wrapper,
+  nav.always-fixed .nav-wrapper {
+    top: $nav-line-height;
+    @include translate(0, 0);
+  }
+
+  .nav-menu {
+    @include translate(0, 100%);
+  }
+
+  nav.fixed .nav-menu,
+  nav.always-fixed .nav-menu {
+    @include translate(0, -100%);
+  }
+
+  nav.fixed.open .nav-menu,
+  nav.always-fixed.open .nav-menu {
+    @include translate(0, 0);
+  }
+
+  .hamburger {
+    display: inline;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+  }
+}
+

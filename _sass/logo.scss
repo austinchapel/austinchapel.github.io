@@ -1,10 +1,10 @@
-$logo-size: 1.5em;
+@import "variables";
 
 .logo {
   height: $logo-size;
   width: $logo-size;
   margin-left: 0.5em;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: left top;
   display: inline-block;
@@ -35,5 +35,14 @@ $logo-size: 1.5em;
 
   &:hover {
     background-image: url(/img/logos/insta-negative.svg);
+  }
+}
+
+.logo.amc {
+  background-image: url(/img/logos/amc.svg);
+  width: 0.7059599461 * $logo-size;
+
+  &:hover {
+    background-image: url(/img/logos/amc.svg);
   }
 }

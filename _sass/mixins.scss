@@ -18,3 +18,17 @@
   -webkit-background-size: cover;
           background-size: cover;
 }
+
+@mixin transition($transitions) {
+     -moz-transition: $transitions;
+       -o-transition: $transitions;
+      -ms-transition: $transitions;
+  -webkit-transition: $transitions;
+          transition: $transitions;
+}
+
+@mixin appearance($appearance) {
+  -webkit-appearance: $appearance;
+     -moz-appearance: $appearance;
+          appearance: $appearance;
+}

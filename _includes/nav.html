@@ -7,9 +7,28 @@
 {% endif %}
 
 <nav class="{{ class }}">
-  {% for other_page in site.nav %}
-    {% if other_page.url != page.url %}
-      <a href="{{ other_page.url }}">{{ other_page.text }}</a>
-    {% endif %}
-  {% endfor %}
+  <button type=button class=hamburger>
+    <div>
+      <div class=line></div>
+      <div class=line></div>
+      <div class=line></div>
+    </div>
+
+    <div>
+      <div class=ex></div>
+      <div class=ex></div>
+    </div>
+  </button>
+
+  <a href="{{ site.nav[0].url }}" class="amc logo" alt="Austin Midtown Chapel: Home"></a>
+
+  <div class=nav-wrapper>
+    <div class=nav-menu>
+      {% for other_page in site.nav %}
+        {% if other_page.url != site.nav[0].url %}
+          <a href="{{ other_page.url }}">{{ other_page.text }}</a>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
 </nav>
