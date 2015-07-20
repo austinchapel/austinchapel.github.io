@@ -145,10 +145,6 @@ cite {
   }
 }
 
-.light {
-  color: white;
-}
-
 .big-quote {
   font-size: 2rem;
 }
@@ -162,4 +158,13 @@ cite {
     font-size: 1.5rem;
     margin-right: 2rem;
   }
+}
+
+.bg-argyle,
+.light,
+.bg-argyle a,
+.light a,
+.bg-argyle a:visited,
+.light a:visited {
+  color: white;
 }

@@ -22,6 +22,11 @@
   }
 }
 
+.bg-argyle .logo.email,
+.light .logo.email {
+  background-image: url(/img/logos/email-white.svg);
+}
+
 .logo.fb {
   background-image: url(/img/logos/fb.svg);
 
@@ -30,12 +35,22 @@
   }
 }
 
+.bg-argyle .logo.fb,
+.light .logo.fb {
+  background-image: url(/img/logos/fb-white.svg);
+}
+
 .logo.insta {
   background-image: url(/img/logos/insta.svg);
 
   &:hover {
     background-image: url(/img/logos/insta-negative.svg);
   }
+}
+
+.bg-argyle .logo.insta,
+.light .logo.insta {
+  background-image: url(/img/logos/insta-white.svg);
 }
 
 .logo.amc {

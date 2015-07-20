@@ -4,7 +4,6 @@ $spacing: 2rem;
   background-color: black;
   background: url(/img/argyle.png);
   background-repeat: repeat;
-  color: white;
 }
 
 .info h2 {
@@ -69,12 +68,10 @@ $spacing: 2rem;
 
 .info a {
   font-weight: bold;
-  color: white;
   line-height: 1.5em;
 }
 
 .info a:visited {
-  color: white;
 }
 
 .info a:after {

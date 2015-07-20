@@ -14,6 +14,7 @@ nav {
   right: 0;
   text-align: center;
   background-color: $nav-background-color;
+  z-index: 100; // idk fml
 }
 
 nav.static {
