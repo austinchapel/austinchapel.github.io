@@ -125,7 +125,8 @@ nav.open .hamburger .line {
   }
 
   nav.fixed .nav-wrapper,
-  nav.always-fixed .nav-wrapper {
+  nav.always-fixed .nav-wrapper,
+  .always-fixed-nav nav .nav-wrapper {
     top: $nav-line-height;
     @include translate(0, 0);
   }
@@ -135,12 +136,14 @@ nav.open .hamburger .line {
   }
 
   nav.fixed .nav-menu,
-  nav.always-fixed .nav-menu {
+  nav.always-fixed .nav-menu,
+  .always-fixed-nav nav .nav-menu {
     @include translate(0, -100%);
   }
 
   nav.fixed.open .nav-menu,
-  nav.always-fixed.open .nav-menu {
+  nav.always-fixed.open .nav-menu,
+  .always-fixed-nav nav.open .nav-menu {
     @include translate(0, 0);
   }
 
