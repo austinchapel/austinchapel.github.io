@@ -1,0 +1,26 @@
+<footer class=group>
+  <p class=text-center>
+    {% for other_page in site.nav %}
+      <span class=footer-link-wrapper>
+        <a href="{{ other_page.url }}">{{ other_page.text }}</a>
+      </span>
+    {% endfor %}
+  </p>
+
+  <p class=text-center>
+  Written content licensed under
+  <a href="http://creativecommons.org/licenses/by/4.0/">Creative Commons
+  Attribution 4.0 International License</a>
+
+  <img src=/img/logos/creative-commons.svg alt="Creative Commons logo" />
+  <img src=/img/logos/creative-commons-attribution.svg alt="Creative Commons attribution logo" />
+  </p>
+
+  <p class=text-center>
+  Photography &copy; <a href="http://www.lanterncreative.co">Samuel Ramsey</a>
+  </p>
+
+  <p class=text-center>
+  <a href="https://github.com/austinmidtownchapel/austinmidtownchapel.github.io">The source</a> is open
+  </p>
+</footer>

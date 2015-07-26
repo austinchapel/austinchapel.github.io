@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="70pt"
+   height="70pt"
+   viewBox="0 0 70 70"
+   version="1.1"
+   id="svg4272"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="creative-commons-attribution.svg">
+  <metadata
+     id="metadata4294">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs4292" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1440"
+     inkscape:window-height="855"
+     id="namedview4290"
+     showgrid="false"
+     inkscape:zoom="8.8685714"
+     inkscape:cx="43.75"
+     inkscape:cy="43.75"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg4272" />
+  <path
+     fill="#404040"
+     d=" M 33.43 12.53 C 35.49 12.11 38.21 12.39 39.27 14.48 C 40.47 16.99 40.08 21.11 36.95 21.95 C 34.84 22.39 32.04 22.36 30.80 20.26 C 29.40 17.64 29.99 13.13 33.43 12.53 Z"
+     id="path4282"
+     style="fill:#808080;fill-opacity:1" />
+  <path
+     fill="#404040"
+     d=" M 27.18 24.16 C 32.39 23.89 37.65 23.88 42.86 24.16 C 43.18 24.42 43.82 24.92 44.13 25.18 C 44.86 30.25 44.23 35.46 44.44 40.59 C 43.11 40.60 41.78 40.60 40.45 40.61 C 40.43 46.27 40.45 51.93 40.44 57.59 C 36.81 57.61 33.19 57.61 29.56 57.59 C 29.55 51.93 29.57 46.27 29.55 40.61 C 28.22 40.60 26.89 40.60 25.56 40.59 C 25.78 35.44 25.12 30.19 25.88 25.11 C 26.21 24.87 26.86 24.39 27.18 24.16 Z"
+     id="path4284"
+     style="fill:#808080;fill-opacity:1" />
+  <ellipse
+     style="fill:none;fill-opacity:1;stroke:#808080;stroke-width:8.71979713;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="path4780"
+     cx="35.000137"
+     cy="34.999569"
+     rx="30.637438"
+     ry="30.636475" />
+</svg>

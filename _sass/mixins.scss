@@ -32,3 +32,11 @@
      -moz-appearance: $appearance;
           appearance: $appearance;
 }
+
+@mixin dark-bg-text-styles($color: white) {
+  color: $color;
+
+  a, a:visited {
+    color: $color;
+  }
+}

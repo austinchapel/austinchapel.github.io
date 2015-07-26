@@ -58,6 +58,7 @@ header.fullscreen {
 .bg-argyle {
   background: url(/img/argyle.png);
   background-repeat: repeat;
+  @include dark-bg-text-styles;
 }
 
 a {
@@ -66,4 +67,8 @@ a {
 
 a:visited {
   color: lighten(black, 25%);
+}
+
+.dark-bg {
+  @include dark-bg-text-styles;
 }

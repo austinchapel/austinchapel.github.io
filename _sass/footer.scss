@@ -1,0 +1,35 @@
+@import "variables";
+@import "mixins";
+
+footer {
+  background-color: $nav-background-color;
+
+  font-size: 0.8rem;
+}
+
+footer, .bg-argyle footer {
+  @include dark-bg-text-styles(darken(white, 50%));
+}
+
+footer p {
+  max-width: 80%;
+  margin: 1rem auto;
+}
+
+footer p:first-child .footer-link-wrapper:after {
+  content: " \213D";
+  font-size: .8em;
+  position: relative;
+  vertical-align: baseline;
+  top: -0.1em;
+  margin: 0 .6em;
+}
+
+footer p:first-child .footer-link-wrapper:last-child:after {
+  content: "";
+}
+
+footer img {
+  height: 1em;
+  margin-bottom: -0.2em;
+}
