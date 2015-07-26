@@ -59,3 +59,11 @@ header.fullscreen {
   background: url(/img/argyle.png);
   background-repeat: repeat;
 }
+
+a {
+  color: black;
+}
+
+a:visited {
+  color: lighten(black, 25%);
+}

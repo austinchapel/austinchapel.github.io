@@ -87,6 +87,10 @@ p {
   display: block;
 }
 
+.abstract > :last-child {
+  margin-bottom: 0;
+}
+
 .abstract cite {
   font-size: 1.3rem;
   margin-right: 0;
@@ -167,4 +171,9 @@ cite {
 .bg-argyle a:visited,
 .light a:visited {
   color: white;
+}
+
+.go-on {
+  font-style: italic;
+  text-align: right;
 }
