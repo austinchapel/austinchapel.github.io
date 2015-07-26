@@ -1,0 +1,24 @@
+.vision {
+  dl {
+    text-align: justify;
+  }
+
+  dd, dt {
+    display: inline;
+    margin: 0;
+    line-height: 1.2rem;
+  }
+
+  dt {
+    font-weight: bold;
+  }
+
+  dt:after {
+    content: ':';
+  }
+
+  dd:after {
+    content: '\00000a\00000a';
+    white-space: pre;
+  }
+}
