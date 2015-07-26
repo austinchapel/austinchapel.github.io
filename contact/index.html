@@ -1,12 +1,12 @@
 ---
-body-classes: bg-argyle always-fixed-nav
+body-classes: bg-argyle
 ---
 
-{% include nav.html %}
+<header role=banner class="bg halfscreen banner-img"></header>
 
-<div class=banner-img></div>
+{% include nav.html position="static" %}
 
-<main role=main class=abstract>
+<main role=main class="abstract group light">
   <p>
     You can stay current with our community on <a href="{{ site.facebook}}">
     Facebook</a>:
