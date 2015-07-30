@@ -12,37 +12,23 @@ body-classes: bg-argyle
   </h2>
 
   <ul>
-    {% include belief-summary.html slug="bible" belief="The Bible is the word of God." %}
-    {% include belief-summary.html slug="trinity" belief="There is one true God who exists in three persons." %}
-    {% include belief-summary.html slug="jesus" belief="Jesus is God, creator, and our savior." %}
-    {% include belief-summary.html slug="holy-spirit" belief="The Holy Spirit is God and dwells in the believer." %}
-    {% include belief-summary.html slug="creation" belief="God created all from nothing." %}
-    {% include belief-summary.html slug="lucifer" belief="Lucifer rebelled and was cast out of heaven." %}
-    {% include belief-summary.html slug="man" belief="God created humans in His image." %}
-    {% include belief-summary.html slug="sin" belief="Sin entered the world through Adam's disobedience." %}
-    {% include belief-summary.html slug="virgin-birth" belief="Jesus came to earth being born of a virgin." %}
-    {% include belief-summary.html slug="perfect-life" belief="Jesus lived a perfect life to be the perfect sacrifice." %}
-    {% include belief-summary.html slug="crucifiction" belief="Jesus was crucified for the sins of the World." %}
-    {% include belief-summary.html slug="resurection" belief="Jesus rose on the third day, conquering sin and death." %}
-    {% include belief-summary.html slug="church" belief="The church are those who have accepted Jesus as Lord and Savior." %}
-    {% include belief-summary.html slug="gifts" belief="The Holy Spirit empowers the church with all spiritual gifts." %}
-    {% include belief-summary.html slug="return" belief="Jesus will one day return in glory with all power." %}
+    {% for doctrine in site.data.beliefs.doctrine %}
+      <li>
+        {{ doctrine.summary }}
+        <a id="{{ doctrine.summary | slugify }}-anchor" href="#{{ doctrine.summary | slugify }}">
+          &#10140;
+        </a>
+      </li>
+    {% endfor %}
   </ul>
 
-  {% include belief.html slug="bible" belief="The Scriptures (66 books of the old and new Testaments) are true, authoritative and divinely inspired by God while penned by men. The Scriptures are complete and are not to be added to or taken from. They are given to us to better know God’s eternal plan and story and to grow in relationship with Him." %}
-  {% include belief.html slug="trinity" belief="There is only one true and eternal God who is Creator and Ruler of all. He is one in essence and exists in three distinct persons Father, Son and Holy Spirit. God is one in nature and essence but three in works and substance. " %}
-  {% include belief.html slug="jesus" belief="Jesus is God and has existed eternally as the Son of God. Jesus is the creator and holds all things together with divine power and is worthy of all praise and glory. Just over two thousand years ago Jesus came to earth as a man. Born of the virgin Mary, He lived on earth and existed as fully man and fully God. He lived as the exact imprint of God's nature being perfect in all ways. He then was crucified and rose from the dead on the third day." %}
-  {% include belief.html slug="holy-spirit" belief="The Holy Spirit is the third person of the Trinity and is equally God. The Holy Spirit has eternally existed like the Father and Son and lives in all believers as an assurance of our salvation in Christ. The Holy Spirit convicts the world of sin and points humanity towards Jesus. The Holy Spirit also intercedes for the saints, illuminates Scripture, helps in our weakness, and gives the believer spiritual gifts to minister." %}
-  {% include belief.html slug="creation" belief="God created the heavens and the earth from nothing as told in Genesis. Creation was a creative act of God and not a random process. He created all as part of His will and for His glory." %}
-  {% include belief.html slug="lucifer" belief="God created Angels to be spiritual worshippers in heaven. They have there own personal identities and role in God’s creation. Lucifer was an angel who desired to be like God. He and one third of the angels rebelled against God and were cast out of Heaven. Lucifer and the fallen angels are enemies of God and the Church." %}
-  {% include belief.html slug="man" belief="God created man with a purpose and for relationship with Him. From the beginning, mankind has had the responsibility to rule and take care of the world, as well to obey God and love Him. Man was created to give God glory and be worshippers of Him." %}
-  {% include belief.html slug="sin" belief="When tempted by Lucifer, Adam and Eve disobeyed God and brought sin into this world. By this, all of mankind has been born into a sinful world, slaves to sin, both because of the inherited Sin of Adam and because of our own personal decisions to sin. God, being just and holy, must punish sin." %}
-  {% include belief.html slug="virgin-birth" belief="" %}
-  {% include belief.html slug="perfect-life" belief="Jesus came to the earth to live a perfect life worthy to be a perfect sacrifice for sin. Jesus, at the end of His perfect life on earth, was crucified for all of mankind's sin. Our sins were put upon Christ and anyone who believes will receive salvation and be rid of the penalty of sin, which is death. Through Christ's death and resurrection on the third day we can receive eternal life and enter relationship with God." %}
-  {% include belief.html slug="crucifiction" belief="" %}
-  {% include belief.html slug="resurection" belief="" %}
-  {% include belief.html slug="church" belief="The Church is made up of those who have accepted the gospel. We exist to glorify God with Christ as our center and leader. We have been saved by his grace and mercy and are eternally grateful. We serve Him out of thankfulness for all that he has done for us. Through the power of the Holy Spirit living in us, we are being transformed to be more and more Christ like. We are his witnesses to the world and serve him and invite others to do so as well." %}
-  {% include belief.html slug="gifts" belief="" %}
-  {% include belief.html slug="return" belief="Jesus ascended to heaven after his resurrection and is creating a new home for us. He will one day return to glorify his church, establish His Kingdom and to punish those who reject His saving work." %}
+  {% for doctrine in site.data.beliefs.doctrine %}
+    {% if doctrine.full %}
+      <p id="{{ doctrine.summary | slugify }}">
+        {{ doctrine.full }}
+        <a href="#{{ doctrine.summary | slugify }}-anchor">&#8617;</a>
+      </p>
+    {% endif %}
+  {% endfor %}
 </main>
 
