@@ -8,6 +8,18 @@
     return state().scroll >= state().vh - NAV_HEIGHT;
   }
 
+  function navMenuShouldOpenUp() {
+    var bounds = $nav[0] && $nav[0].getBoundingClientRect();
+
+    if (!bounds)
+      return true;
+
+    if (bounds.top == null || state().vh == null)
+      return true;
+
+    return bounds.top > state().vh / 2;
+  }
+
   function fixNav(shouldFix) {
     if (shouldFix) {
       $nav.find('.nav-menu').addClass('no-transition');
@@ -25,9 +37,29 @@
     }
   }
 
+  function setOpeningDirectionDownward(downward) {
+    if (downward) {
+      $nav.find('.nav-menu').addClass('no-transition');
+      $nav.addClass('open-downward');
+      setTimeout(function() {
+        $nav.find('.nav-menu').removeClass('no-transition');
+      }, 0);
+    } else {
+      $nav.find('.nav-menu').addClass('no-transition');
+      $nav.removeClass('open-downward');
+      $nav.find('.nav-menu')[0].getBoundingClientRect();
+      setTimeout(function() {
+        $nav.find('.nav-menu').removeClass('no-transition');
+      }, 0);
+    }
+  }
+
   state.onchange(function(event, current, previous) {
     if (current.scroll != previous.scroll || current.vh != previous.vh)
-      state({fixed: navShouldBeFixed()});
+      state({
+        fixed: navShouldBeFixed(),
+        navMenuOpensUp: navMenuShouldOpenUp()
+      });
 
     if (current.fixed != previous.fixed)
       fixNav(current.fixed);
@@ -37,6 +69,12 @@
        $nav.addClass('open');
      else
        $nav.removeClass('open');
+
+    if (current.navMenuOpensUp != previous.navMenuOpensUp)
+      if (current.navMenuOpensUp)
+        setOpeningDirectionDownward(false);
+      else
+        setOpeningDirectionDownward(true);
   });
 
   $window.on('resize orientationchange', function() {
