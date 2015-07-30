@@ -19,9 +19,9 @@ body {
 
 .cta {
   position: absolute;
-  top: 50%;
+  top: 0;
   width: 100%;
-  @include translate(0, -80%);
+  @include translate(0, 20%);
   text-align: center;
 }
 
@@ -38,7 +38,7 @@ body {
 
 @media screen and (max-width: 850px) {
   .cta {
-    @include translate(0, -120%);
+    @include translate(0, 0);
   }
 
   .cta > :first-child {
@@ -61,7 +61,7 @@ body {
     position: absolute;
     width: 100%;
     text-align: center;
-    top: 50%;
+    top: 150px;
     margin: 0;
   }
 }

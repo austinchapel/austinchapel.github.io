@@ -34,36 +34,147 @@ header.fullscreen {
   background-image: url(/img/zilker-atx.jpg);
 }
 
+
 .bg-church {
-  background-image: url(/img/church-1920x1080.png);
+  background-image: url(/img/church.png);
 }
+
+@media (max-width: 1440px) {
+  .bg-church {
+    background-image: url(/img/church-1440.png);
+  }
+}
+
+@media (max-width: 1024px) {
+  .bg-church {
+    background-image: url(/img/church-1024.png);
+  }
+}
+
+@media (max-width: 768px) {
+  .bg-church {
+    background-image: url(/img/church-768.png);
+  }
+}
+
 
 .bg-cliffs {
   background-image: url(/img/cliffs-full.jpg);
 }
 
-.bg-city {
-  background-image: url(/img/austin-full.jpg);
+
+@media (orientation: landscape) {
+  .bg-city {
+    background-image: url(/img/austin-landscape.jpg);
+  }
+}
+
+@media (orientation: landscape) and (max-width: 2048px) {
+  .bg-city {
+    background-image: url(/img/austin-landscape-2048.jpg);
+  }
+}
+
+@media (orientation: landscape) and (max-width: 1440px) {
+  .bg-city {
+    background-image: url(/img/austin-landscape-1440.jpg);
+  }
+}
+
+@media (orientation: landscape) and (max-width: 1024px) {
+  .bg-city {
+    background-image: url(/img/austin-landscape-1024.jpg);
+  }
+}
+
+@media (orientation: portrait) {
+  .bg-city {
+    background-image: url(/img/austin-portrait.jpg);
+  }
+}
+
+@media (orientation: portrait) and (max-width: 1024px) {
+  .bg-city {
+    background-image: url(/img/austin-portrait-1024.jpg);
+  }
+}
+
+@media (orientation: portrait) and (max-width: 768px) {
+  .bg-city {
+    background-image: url(/img/austin-portrait-768.jpg);
+  }
 }
 
 .bg-churches {
   background-image: url(/img/churches.jpg);
 }
 
-.bg-vision {
-  background-image: url(/img/vision.jpg);
+@media (max-width: 1024px) {
+  .bg-churches {
+    background-image: url(/img/churches-1024.jpg);
+  }
+}
+
+@media (max-width: 768px) {
+  .bg-churches {
+    background-image: url(/img/churches-768.jpg);
+  }
 }
 
 .bg-vision-clamped {
   background-image: url(/img/vision-clamped.jpg);
 }
 
-.bg-beliefs {
-  background-image: url(/img/beliefs.jpg);
+@media (max-width: 2048px) {
+  .bg-vision-clamped {
+    background-image: url(/img/vision-clamped-2048.jpg);
+  }
+}
+
+@media (max-width: 1440px) {
+  .bg-vision-clamped {
+    background-image: url(/img/vision-clamped-1440.jpg);
+  }
+}
+
+@media (max-width: 1024px) {
+  .bg-vision-clamped {
+    background-image: url(/img/vision-clamped-1024.jpg);
+  }
+}
+
+@media (max-width: 768px) {
+  .bg-vision-clamped {
+    background-image: url(/img/vision-clamped-768.jpg);
+  }
 }
 
 .bg-beliefs-clamped {
   background-image: url(/img/beliefs-clamped.jpg);
+}
+
+@media (max-width: 2048px) {
+  .bg-beliefs-clamped {
+    background-image: url(/img/beliefs-clamped-2048.jpg);
+  }
+}
+
+@media (max-width: 1440px) {
+  .bg-beliefs-clamped {
+    background-image: url(/img/beliefs-clamped-1440.jpg);
+  }
+}
+
+@media (max-width: 1024px) {
+  .bg-beliefs-clamped {
+    background-image: url(/img/beliefs-clamped-1024.jpg);
+  }
+}
+
+@media (max-width: 768px) {
+  .bg-beliefs-clamped {
+    background-image: url(/img/beliefs-clamped-768.jpg);
+  }
 }
 
 .bg-people {
