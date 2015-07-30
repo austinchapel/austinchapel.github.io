@@ -22,20 +22,16 @@ body-classes: bg-argyle
   <h2 id=code>Code</h2>
 
   <p>
-  The Austin Midtown Chapel code is a set of truths we use for encouragement and teaching. You'll hear us use them as we pray, teach, and converse. They form a dialect that is <a href="https://www.biblegateway.com/passage/?search=Ephesians%204:29">wholesome and helpful in building one another up</a>.
+  Our code is a set of truths you'll hear us use as we pray, teach, and converse.
   </p>
 
   <dl>
-    {% include code-item.html slug="jesus"      code="Jesus Above All"        description="It's about him, not us" %}
-    {% include code-item.html slug="culture"    code="A Better Culture"       description="Work towards a culture of love and grace" %}
-    {% include code-item.html slug="spirit"     code="Spirit Reliance"        description="We find God's strength and victory through the Holy Spirit" %}
-    {% include code-item.html slug="scripture"  code="Sola Scriptura"         description="The Bible is our guide on all matters of belief" %}
-    {% include code-item.html slug="family"     code="Welcome to the Family"  description="More than just community, we are family" %}
-    {% include code-item.html slug="leadership" code="The Last Will Be First" description="We come to serve and not to be served" %}
-    {% include code-item.html slug="mission"    code="Mission Always"         description="Share the Gospel in every opportunity" %}
-    {% include code-item.html slug="prayer"     code="Lines Open"             description="Pray, pray, and then pray more!" %}
-    {% include code-item.html slug="stand"      code="Stand Up"               description="Stand up for what's right, speak out against injustice" %}
-    {% include code-item.html slug="hold"       code="Hold Fast"              description="Jesus is our everything. We hold fast to our hope in Him." %}
+    {% for code in site.data.beliefs.code %}
+      <dt id="code-{{ code.tagline | slugify }}">{{ code.tagline }}</dt>
+      <dd>
+        {{ code.description }}
+      </dd>
+    {% endfor %}
   </dl>
 </main>
 

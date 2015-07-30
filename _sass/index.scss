@@ -82,7 +82,7 @@ p {
 
 .abstract > * {
   margin: 0 auto;
-  margin-bottom: 1rem;
+  margin-bottom: $standard-gutter;
   max-width: 500px;
   display: block;
 }
@@ -104,7 +104,7 @@ p {
 
 @media screen and (max-width: 680px) {
   .abstract {
-    padding: 1rem;
+    padding: $standard-gutter;
   }
 
   .abstract img {
