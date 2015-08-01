@@ -40,3 +40,8 @@
     color: $color;
   }
 }
+
+@mixin position-sticky {
+  position: -webkit-sticky;
+  position: sticky;
+}

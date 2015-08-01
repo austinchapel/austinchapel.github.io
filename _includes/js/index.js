@@ -2,10 +2,13 @@
   var $window = $(window);
   var $nav = $(document.getElementsByTagName('nav'));
   var NAV_HEIGHT = $nav.height();
-  var vh = $window.height();
+  var initialNavTop = $nav[0] && $nav[0].getBoundingClientRect().top;
 
   function navShouldBeFixed() {
-    return state().scroll >= state().vh - NAV_HEIGHT;
+    if (stickySupported() || initialNavTop == null)
+      return false;
+    else
+      return state().scroll >= initialNavTop;
   }
 
   function navMenuShouldOpenUp() {

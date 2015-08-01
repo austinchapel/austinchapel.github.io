@@ -6,8 +6,8 @@ h1, h2, h3 {
 }
 
 .bg {
-      background-position: center center;
-        background-repeat: no-repeat;
+  background-position: center center;
+    background-repeat: no-repeat;
   @include background-size-cover;
 }
 
@@ -17,13 +17,6 @@ h1, h2, h3 {
 
 .halfscreen {
   height: 50vh;
-}
-
-// 100vh on ios includes the browser chrome (cause that's useful? idk), so if
-// the fullscreen element is at the top of the page (i.e. the header), size it
-// to the containing element rather than the viewport
-header.fullscreen {
-  height: 100%;
 }
 
 .fullscreen--black {

@@ -1,13 +1,5 @@
 @import "mixins";
 
-html {
-  height: 100%;
-}
-
-body {
-  height: 100%;
-}
-
 .always-fixed-nav {
   margin-top: $nav-line-height;
 }
