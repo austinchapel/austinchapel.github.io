@@ -98,6 +98,12 @@ h1, h2, h3 {
   }
 }
 
+@media (orientation: portrait) and (max-width: 400px) {
+  .bg-city {
+    background-image: url(/img/austin-portrait-400.jpg);
+  }
+}
+
 .bg-churches {
   background-image: url(/img/churches.jpg);
 }
