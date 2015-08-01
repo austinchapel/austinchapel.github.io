@@ -12,6 +12,7 @@ $nav-breakpoint: 500px;
 }
 
 nav {
+  position: relative;
   @include position-sticky;
   left: 0;
   right: 0;
