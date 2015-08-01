@@ -29,24 +29,24 @@ h1, h2, h3 {
 
 
 .bg-church {
-  background-image: url(/img/church.png);
+  background-image: url(/img/church.jpg);
 }
 
 @media (max-width: 1440px) {
   .bg-church {
-    background-image: url(/img/church-1440.png);
+    background-image: url(/img/church-1440.jpg);
   }
 }
 
 @media (max-width: 1024px) {
   .bg-church {
-    background-image: url(/img/church-1024.png);
+    background-image: url(/img/church-1024.jpg);
   }
 }
 
 @media (max-width: 768px) {
   .bg-church {
-    background-image: url(/img/church-768.png);
+    background-image: url(/img/church-768.jpg);
   }
 }
 
