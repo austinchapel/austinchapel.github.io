@@ -17,6 +17,9 @@ nav:
 -
   text: Events
   url: /events/
+# -
+#   text: Media
+#   url: /media/
 -
   text: Contact
   url: /contact/

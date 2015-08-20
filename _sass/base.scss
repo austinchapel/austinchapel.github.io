@@ -19,6 +19,11 @@ h1, h2, h3 {
   height: 50vh;
 }
 
+.banner-img {
+  @include background-size-cover;
+  height: 35.123456vw;
+}
+
 .fullscreen--black {
   background-color: black;
 }
@@ -189,6 +194,14 @@ h1, h2, h3 {
   background: url(/img/argyle.png);
   background-repeat: repeat;
   @include dark-bg-text-styles;
+}
+
+.bg-6th {
+  background-image: url(/img/6th-full.jpg);
+}
+
+.bg-6th-bar {
+  background-image: url(/img/6th-st-bar.jpg);
 }
 
 a {
