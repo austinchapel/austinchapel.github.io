@@ -58,7 +58,7 @@
 
 @media screen and (min-width: 550px) {
   .listing {
-    max-width: 500px;
+    max-width: 400px;
     margin: 1rem auto;
   }
 
@@ -77,6 +77,10 @@
 
   .listing.img-right {
     text-align: left;
+  }
+
+  .listing.img-right span {
+    margin-left: 1rem;
   }
 }
 
