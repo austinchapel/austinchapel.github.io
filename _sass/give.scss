@@ -1,0 +1,23 @@
+blockquote.smaller, p.smaller {
+  font-size: 1rem;
+}
+
+blockquote.smaller {
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.give-button {
+  margin: 0 auto 1rem;;
+  text-align: center;
+}
+
+.give-button button {
+  background-color: transparent;
+  border: 1px solid white;
+  -webkit-appearance: none;
+  appearance: none;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+}

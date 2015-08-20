@@ -48,7 +48,8 @@ module Jekyll
 
   # Any files to exclude from being included in the sitemap.xml
   EXCLUDED_FILES = [
-    "404.md"
+    "404.md",
+    "give/thanks/index.html"
   ]
 
   # Any files that include posts, so that when a new post is added, the last

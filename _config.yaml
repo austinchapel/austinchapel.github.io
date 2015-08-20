@@ -21,6 +21,9 @@ nav:
 #   text: Media
 #   url: /media/
 -
+  text: Give
+  url: /give/
+-
   text: Contact
   url: /contact/
 
