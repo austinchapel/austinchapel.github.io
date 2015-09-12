@@ -17,9 +17,9 @@ nav:
 -
   text: Events
   url: /events/
-# -
-#   text: Media
-#   url: /media/
+-
+  text: Media
+  url: /media/
 -
   text: Give
   url: /give/
