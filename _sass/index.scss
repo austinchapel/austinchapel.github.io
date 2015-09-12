@@ -15,17 +15,21 @@
   width: 100%;
   @include translate(0, 20%);
   text-align: center;
+
+  // idk why but this overlays the logo links
+  pointer-events: none;
 }
 
 .cta > img {
   display: inline;
   vertical-align: middle;
-  padding: 0 1rem;
+  padding: 0 .5rem;
   max-width: 90%;
 }
 
 .cta > :first-child {
   border-right: 1px dotted black;
+  padding-right: 1rem;
 }
 
 @media screen and (max-width: 850px) {
