@@ -14,4 +14,4 @@
 
 [cc]: http://creativecommons.org/licenses/by/4.0/
 [Samuel Ramsey]: http://www.lanterncreative.co
-[license]: https://github.com/austinmidtownchapel/austinmidtownchapel.github.io/blob/master/LICENSE
+[license]: https://github.com/austinchapel/austinchapel.github.io/blob/master/LICENSE

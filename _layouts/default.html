@@ -3,7 +3,11 @@
   <head>
     <meta charset=utf-8>
     <meta http-equiv=x-ua-compatible content=ie=edge>
-    <title>AUSTIN MIDTOWN CHAPEL</title>
+    {% if page.title %}
+      <title>{{ page.title }} &#9022; AUSTIN CHAPEL</title>
+    {% else %}
+      <title>AUSTIN CHAPEL</title>
+    {% endif %}
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1">
 
