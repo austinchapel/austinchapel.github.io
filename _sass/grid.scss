@@ -1,0 +1,24 @@
+// lol
+
+.col {
+  float: left;
+  box-sizing: border-box;
+}
+
+.col-5 {
+  width: 41.6666667%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+@media (max-width: $sm-breakpoint) {
+  .sm-col-12 {
+    width: 100%;
+  }
+}

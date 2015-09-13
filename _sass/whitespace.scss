@@ -1,0 +1,50 @@
+$m: 1rem;
+$l: 1.5rem;
+$xl: 2rem;
+
+.pm {
+  padding: $m;
+}
+
+.pxm {
+  padding-left: $m;
+  padding-right: $m;
+}
+
+.pyl {
+  padding-top: $l;
+  padding-bottom: $l;
+}
+
+.pyxl {
+  padding-top: $xl;
+  padding-bottom: $xl;
+}
+
+.plm {
+  padding-left: $m;
+}
+
+.mym {
+  margin-top: $m;
+  margin-bottom: $m;
+}
+
+.myxl {
+  margin-top: $xl;
+  margin-bottom: $xl;
+}
+
+.mb0 {
+  margin-bottom: 0;
+}
+
+// negative margin left medium
+.nmlm {
+  margin-left: -$m;
+}
+
+.container {
+  box-sizing: border-box;
+  margin: 0 auto;
+}

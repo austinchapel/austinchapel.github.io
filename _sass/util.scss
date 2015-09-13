@@ -16,6 +16,10 @@
   float: right;
 }
 
+.float-left {
+  float: left;
+}
+
 .text-center {
   text-align: center;
 }
@@ -32,4 +36,8 @@
 
 .no-transition {
   @include transition(all 0s linear !important);
+}
+
+.overflow-hidden {
+  overflow: hidden;
 }

@@ -11,10 +11,14 @@
 @import "base";
 @import "logo";
 
+@import "grid";
+@import "whitespace";
+@import "typography";
+
 // pages
 @import "index";
 @import "worship";
-@import "events";
+@import "gatherings";
 @import "about";
 @import "vision";
 @import "beliefs";

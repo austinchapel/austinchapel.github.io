@@ -1,0 +1,94 @@
+---
+body-classes: nav-padding
+title: Gatherings
+---
+
+{% include nav.html %}
+
+<main role=main class="group bg-concrete">
+  <div class="bg-argyle pyxl group"><div class="container col-9 pxm sm-col-12"><div class="nmlm">
+        <p class="tl sm-tm col col-6 plm sm-col-12">
+        Our Sunday gatherings start on October 4<sup>th</sup> at <a
+        href="http://www.coldtownetheater.com">ColdTowne Theater</a> at 11 A.M.
+        </p>
+
+        <div class="col col-6 plm sm-col-12">
+          {% include maps/coldtowne-theater.html %}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <hr />
+
+  <div class="container col-9 sm-col-12 pxm">
+    <h2 class="mb0">
+      Community Groups
+    </h2>
+
+    <div class="group">
+      <p class="tl">
+      Community groups are an opportunity during the week to get together at a
+      friend's house for prayer and Bible study. Hanging out like this on a
+      regular basis builds friendships that help us
+      <a href="/about/vision/#mission">make disciples and share Jesus's
+      story</a>.
+      </p>
+
+      <div class="nmlm group mym">
+        <div class="col col-6 sm-col-12 plm">
+          <p >
+          Right now we have one community group that meets at 7 each Thursday at
+          Aaron and Ashly Stacy's house.
+          </p>
+
+          <p>
+          <a href="mailto:{{ site.people.aaron.email }}">Contact Aaron for more info &#10140;</a>
+          </p>
+
+        </div>
+
+        <div class="col col-6 sm-col-12 plm">
+          {% include maps/aaron-and-ashly.html %}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <hr />
+
+  <div class="container col-5 sm-col-12 pxm">
+    <h2 class="mb0">
+      Events
+    </h2>
+
+    {% for post in site.posts %}
+      <a class="group myxl block" href="{{ post.url }}">
+        <img
+          style="height: 4rem;"
+          class="float-left"
+          src={% cycle '/img/thumbnails/people.jpg', '/img/thumbnails/spire.jpg', '/img/thumbnails/vision.jpg', '/img/thumbnails/hyde-park-theater.jpg' %} />
+        <div class="overflow-hidden pxm">
+          {{ post.formatted-date }} {{ post.title }}
+        </div>
+      </a>
+    {% endfor %}
+  </div>
+
+  <hr />
+
+  <div class=abstract>
+    <p>
+      Let us consider how to stir up one another to love and good works, not
+      neglecting to meet together, as is the habit of some, but encouraging one
+      another.
+
+      <cite>Hebrews 10:24-25</cite>
+    </p>
+  </div>
+</main>
+
+<hr />
+
+<div class="banner-img bg-6th"></div>
+

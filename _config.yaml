@@ -7,6 +7,10 @@ email: info@austinchapel.org
 insta: https://instagram.com/austinchapel.tx/
 facebook: https://www.facebook.com/austinmidtownchapel
 
+people:
+  aaron:
+    email: aaron.r.stacy@gmail.com
+
 nav:
 -
   text: Home
@@ -15,8 +19,8 @@ nav:
   text: About
   url: /about/
 -
-  text: Events
-  url: /events/
+  text: Gatherings
+  url: /gatherings/
 -
   text: Media
   url: /media/
