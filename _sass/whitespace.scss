@@ -1,6 +1,7 @@
 $m: 1rem;
 $l: 1.5rem;
 $xl: 2rem;
+$xxl: 3rem;
 
 .pm {
   padding: $m;
@@ -37,6 +38,11 @@ $xl: 2rem;
 
 .mb0 {
   margin-bottom: 0;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 // negative margin left medium
