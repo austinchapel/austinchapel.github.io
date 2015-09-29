@@ -15,5 +15,6 @@
   $(window).on('orientationchange', setWindowDimensionStyles);
 
   setWindowDimensionStyles();
-  $(setWindowDimensionStyles);
+  $(document).ready(setWindowDimensionStyles);
+  $(window).load(setWindowDimensionStyles);
 })();

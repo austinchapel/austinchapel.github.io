@@ -2,7 +2,8 @@
   var $window = $(window);
   var $nav = $(document.getElementsByTagName('nav'));
   var NAV_HEIGHT = $nav.height();
-  var initialNavTop = $nav[0] && $nav[0].getBoundingClientRect().top;
+  var initialNavTop = $nav[0] &&
+    ($nav[0].getBoundingClientRect().top + window.scrollY);
 
   function navShouldBeFixed() {
     if (stickySupported() || initialNavTop == null)
