@@ -8,6 +8,15 @@
     promises that we are able to make?
   audio: /media-files/2015-08-30-worship-night-message.mp4
 
+- date: October 4<sup>th</sup>, 2015
+  title: "Hold Fast"
+  passage:
+    link: https://www.biblegateway.com/passage/?search=hebrews+1
+    text: Hebrews 1
+  summary: >
+    We begin our series on Hebrews with the encouragement to hold fast to God's
+    truth.
+
 - date: October 10<sup>th</sup>, 2015
   title: "Hold Fast: Salvation"
   passage:
@@ -47,6 +56,21 @@
     Christ is the sure and steadfast Anchor of our souls. It is vital for us
     spiritually to be anchored to Him.
   audio: /media-files/2015-11-01-message.mp3
+
+- date: November 8<sup>th</sup>, 2015
+  title: "Hold Fast"
+  passage:
+    link: https://www.biblegateway.com/passage/?search=Hebrews+6%3A21-7%3A26&version=ESV
+    text: Hebrews 6:21 &mdash; 7:26
+
+- date: November 15<sup>th</sup>, 2015
+  title: "Hold Fast: The Point"
+  passage:
+    link: https://www.biblegateway.com/passage/?search=Hebrews+8
+    text: Hebrews 8
+  summary: >
+    Jesus's work as our High Priest is perfectly completed.
+  audio: /media-files/2015-11-15-message.mp3
 
 # Examples:
 # - date: August 28<sup>th</sup>, 2015
