@@ -15,14 +15,22 @@ title: Media
       {% if sermon.title %}
         <strong>{{ sermon.title }}</strong> &mdash;
       {% endif %}
+
       <em>{{ sermon.date }}</em>
       <br />
+
       {% if sermon.summary %}
         {{ sermon.summary }}
         <br />
       {% endif %}
-      &#9654; <a href="{{ sermon.audio }}">Play Audio</a> &#9679;
-      <a href="{{ sermon.passage.link }}">{{ sermon.passage.text }}</a>
+
+      {% if sermon.audio %}
+        &#9654; <a href="{{ sermon.audio }}">Play Audio</a>
+      {% else %}
+        No audio available
+      {% endif %}
+
+      &#9679; <a href="{{ sermon.passage.link }}">{{ sermon.passage.text }}</a>
     </p>
   {% endfor %}
 </main>
