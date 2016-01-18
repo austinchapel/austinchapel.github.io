@@ -1,0 +1,20 @@
+@media (orientation: portrait) {
+  .bg-city {
+    background-image: url(/img/city/portrait.jpg);
+  }
+}
+@media (orientation: portrait) and (max-width: 1440px) {
+  .bg-city {
+    background-image: url(/img/city/portrait-1440.jpg);
+  }
+}
+@media (orientation: portrait) and (max-width: 1024px) {
+  .bg-city {
+    background-image: url(/img/city/portrait-1024.jpg);
+  }
+}
+@media (orientation: portrait) and (max-width: 768px) {
+  .bg-city {
+    background-image: url(/img/city/portrait-768.jpg);
+  }
+}

@@ -7,6 +7,10 @@ $nav-inter-link-spacing: 2rem;
 // more than 3 links, we'll need to increase this.
 $nav-breakpoint: 500px;
 
+.always-fixed-nav {
+  margin-top: $nav-line-height;
+}
+
 .nav-padding {
   padding-top: $nav-line-height;
 }
@@ -27,7 +31,7 @@ nav a {
   text-decoration: none;
   color: white;
   line-height: $nav-line-height;
-  font-size: 2rem;
+  font-size: $nav-font-size;
   font-family: $title-font-family;
   text-transform: uppercase;
   margin-left: $nav-inter-link-spacing;
@@ -45,7 +49,7 @@ nav a:visited {
 }
 
 nav .logo.amc {
-  @include scale(0.75);
+  margin-left: 0;
 }
 
 .nav-wrapper {

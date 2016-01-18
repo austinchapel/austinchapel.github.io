@@ -1,63 +1,18 @@
 @import "mixins";
-
-.always-fixed-nav {
-  margin-top: $nav-line-height;
-}
+@import "variables";
 
 .banner-contact {
   font-size: 2rem;
   margin: 2rem;
 }
 
-.cta {
-  position: absolute;
-  top: 0;
-  width: 100%;
-  @include translate(0, 20%);
-  text-align: center;
-
-  // idk why but this overlays the logo links
-  pointer-events: none;
-}
-
-.cta > img {
-  display: inline;
-  vertical-align: middle;
-  padding: 0 .5rem;
-  max-width: 90%;
-}
-
-.cta > :first-child {
-  border-right: 1px dotted black;
-  padding-right: 1rem;
-}
-
 @media screen and (max-width: 850px) {
-  .cta {
-    @include translate(0, 0);
-  }
-
-  .cta > :first-child {
-    border-right: none;
-    display: none;
-  }
-
-  .cta > img {
-    padding: 1rem;
-  }
-
-  .cta > :last-child {
-    max-height: 6rem;
-    display: block;
-    margin: 1rem auto 0;
-  }
-
   .banner-contact {
     float: none;
     position: absolute;
     width: 100%;
     text-align: center;
-    top: 150px;
+    bottom: $nav-line-height * 1.5;
     margin: 0;
   }
 }

@@ -55,9 +55,7 @@
 
 .logo.amc {
   background-image: url(/img/logos/amc.svg);
-  width: 0.7059599461 * $logo-size;
-
-  &:hover {
-    background-image: url(/img/logos/amc.svg);
-  }
+  height: $nav-line-height;
+  @include scale(.66);
+  margin-bottom: -4px; // fml
 }

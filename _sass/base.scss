@@ -24,14 +24,9 @@ h1, h2, h3 {
   height: 35.123456vw;
 }
 
-.fullscreen--black {
-  background-color: black;
-}
-
 .bg-zilker {
   background-image: url(/img/zilker-atx.jpg);
 }
-
 
 .bg-church {
   background-image: url(/img/church.jpg);
@@ -58,55 +53,6 @@ h1, h2, h3 {
 
 .bg-cliffs {
   background-image: url(/img/cliffs-full.jpg);
-}
-
-
-@media (orientation: landscape) {
-  .bg-city {
-    background-image: url(/img/austin-landscape.jpg);
-  }
-}
-
-@media (orientation: landscape) and (max-width: 2048px) {
-  .bg-city {
-    background-image: url(/img/austin-landscape-2048.jpg);
-  }
-}
-
-@media (orientation: landscape) and (max-width: 1440px) {
-  .bg-city {
-    background-image: url(/img/austin-landscape-1440.jpg);
-  }
-}
-
-@media (orientation: landscape) and (max-width: 1024px) {
-  .bg-city {
-    background-image: url(/img/austin-landscape-1024.jpg);
-  }
-}
-
-@media (orientation: portrait) {
-  .bg-city {
-    background-image: url(/img/austin-portrait.jpg);
-  }
-}
-
-@media (orientation: portrait) and (max-width: 1024px) {
-  .bg-city {
-    background-image: url(/img/austin-portrait-1024.jpg);
-  }
-}
-
-@media (orientation: portrait) and (max-width: 768px) {
-  .bg-city {
-    background-image: url(/img/austin-portrait-768.jpg);
-  }
-}
-
-@media (orientation: portrait) and (max-width: 400px) {
-  .bg-city {
-    background-image: url(/img/austin-portrait-400.jpg);
-  }
 }
 
 .bg-churches {

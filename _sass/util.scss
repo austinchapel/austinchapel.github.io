@@ -45,3 +45,16 @@
 .fit {
   max-width: 100%;
 }
+
+.width-100 {
+  width: 100%;
+}
+
+.vcenter {
+  top: 50%;
+  @include translate(0, -50%);
+}
+
+.absolute {
+  position: absolute;
+}
