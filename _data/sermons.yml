@@ -122,6 +122,20 @@
     text: Hebrews 12:1-17
   audio: /media-files/2016-01-03-message.mp3
 
+- date: January 10<sup>th</sup>, 2016
+  title: "Hold Fast: Mountain Dwellers"
+  passage:
+    link: https://www.biblegateway.com/passage/?search=Hebrews+12%3A18-29&version=ESV
+    text: Hebrews 12:18-29
+  audio: /media-files/2016-01-10-message.mp3
+
+- date: January 17<sup>th</sup>, 2016
+  title: "Hold Fast: Just Do Good"
+  passage:
+    link: https://www.biblegateway.com/passage/?search=Hebrews+13%3A1-16&version=ESV
+    text: Hebrews 13:1-16
+  audio: /media-files/2016-01-17-message.mp3
+
 # Examples:
 # - date: August 28<sup>th</sup>, 2015
 #   passage:
