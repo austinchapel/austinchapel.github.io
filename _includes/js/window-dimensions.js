@@ -15,6 +15,19 @@
   $(window).on('orientationchange', setWindowDimensionStyles);
 
   setWindowDimensionStyles();
+
   $(document).ready(setWindowDimensionStyles);
   $(window).load(setWindowDimensionStyles);
+
+  // ios is weird and i keep seeing glitches where the window dimension style
+  // is wrong, so we'll set it on a timeout with an exponential backoff.
+  var interval = 50;
+
+  function windowDimensionSetter() {
+    setWindowDimensionStyles();
+    interval *= 2;
+    setTimeout(windowDimensionSetter, interval);
+  }
+
+  setTimeout(windowDimensionSetter, interval);
 })();
