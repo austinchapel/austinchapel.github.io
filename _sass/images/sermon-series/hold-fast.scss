@@ -1,0 +1,13 @@
+.bg-sermon-series-hold-fast {
+  background-image: url(/img/sermon-series/hold-fast/hold-fast.jpg);
+}
+@media (max-width: 1024px) {
+  .bg-sermon-series-hold-fast {
+    background-image: url(/img/sermon-series/hold-fast/hold-fast-1024.jpg);
+  }
+}
+@media (max-width: 768px) {
+  .bg-sermon-series-hold-fast {
+    background-image: url(/img/sermon-series/hold-fast/hold-fast-768.jpg);
+  }
+}

@@ -1,0 +1,23 @@
+.bg-sermon-series-jonah {
+  background-image: url(/img/sermon-series/jonah/jonah.jpg);
+}
+@media (max-width: 2048px) {
+  .bg-sermon-series-jonah {
+    background-image: url(/img/sermon-series/jonah/jonah-2048.jpg);
+  }
+}
+@media (max-width: 1440px) {
+  .bg-sermon-series-jonah {
+    background-image: url(/img/sermon-series/jonah/jonah-1440.jpg);
+  }
+}
+@media (max-width: 1024px) {
+  .bg-sermon-series-jonah {
+    background-image: url(/img/sermon-series/jonah/jonah-1024.jpg);
+  }
+}
+@media (max-width: 768px) {
+  .bg-sermon-series-jonah {
+    background-image: url(/img/sermon-series/jonah/jonah-768.jpg);
+  }
+}

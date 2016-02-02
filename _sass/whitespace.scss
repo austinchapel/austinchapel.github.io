@@ -22,8 +22,17 @@ $xxl: 3rem;
   padding-bottom: $xl;
 }
 
+.pxxl {
+  padding-left: $xl;
+  padding-right: $xl;
+}
+
 .plm {
   padding-left: $m;
+}
+
+.pl0 {
+  padding-left: 0;
 }
 
 .mym {
@@ -38,6 +47,10 @@ $xxl: 3rem;
 
 .mb0 {
   margin-bottom: 0;
+}
+
+.mtxl {
+  margin-top: $xl
 }
 
 .mx-auto {

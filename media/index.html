@@ -3,35 +3,70 @@ body-classes: bg-argyle
 title: Media
 ---
 
+{% include most-recent-sermon-variables.html %}
+
 <header role=banner class="bg halfscreen banner-img bg-6th-bar"></header>
 
 {% include nav.html %}
 
-<main role=main class="abstract group dark-bg">
-  <h2>Sermons</h2>
+<main role=main class="dark-bg">
+  <div class="group container col-9 pxm md-col-12 mym">
+    <div class="nmlm">
+      <div class="col col-6 plm md-col-12">
+        <a alt="{{ link_alt_text }}" class="block text-center pxxl mtxl" href="/media/sermon-series/{{ series.token }}/">
+          <div class=relative>
+            <div class="block col-12" style="content: ''; padding-top: 57.65%"></div>
+            <div class="bg bg-sermon-series-{{ series.token }} absolute top-0 left-0 right-0 bottom-0"></div>
+          </div>
+        </a>
+      </div>
 
-  {% for sermon in site.data.sermons reversed %}
-    <p class=pyl>
-      {% if sermon.title %}
-        <strong>{{ sermon.title }}</strong> &mdash;
-      {% endif %}
+      <div class="tl col col-6 plm md-col-12">
 
-      <em>{{ sermon.date }}</em>
-      <br />
+        <h2>Most recent message:</h2>
 
-      {% if sermon.summary %}
-        {{ sermon.summary }}
-        <br />
-      {% endif %}
+        {% include sermon.html sermon=sermon %}
 
-      {% if sermon.audio %}
-        &#9654; <a href="{{ sermon.audio }}">Play Audio</a>
-      {% else %}
-        No audio available
-      {% endif %}
+        <h4>
+          <a href="/media/sermon-series/{{ series.token }}/">
+            {{ link_alt_text }} &#10140;
+          </a>
+        </h4>
+      </div>
+    </div>
+  </div>
 
-      &#9679; <a href="{{ sermon.passage.link }}">{{ sermon.passage.text }}</a>
-    </p>
-  {% endfor %}
+  <div class="group container col-9 pxm md-col-12">
+    <div class="nmlm myxl">
+      <div class="col col-6 plm md-col-12">
+        <h2>
+          Sermon Series
+        </h2>
+
+        <ul class="no-bullet tl pl0">
+          {% for series in site.data.sermon-series reversed %}
+            <li class=mym>
+              <a href="/media/sermon-series/{{ series.token }}/">
+                {{ series.title }} &#10140;
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+
+      <div class="col col-6 plm md-col-12">
+        <h2>Recent Sermons</h2>
+
+        {% for sermon in site.data.sermons reversed %}
+          {% if forloop.index < 4 %}
+            {% include sermon.html sermon=sermon %}
+          {% endif %}
+        {% endfor %}
+
+        <p>
+          <a href="/media/sermon-series/all/">View all sermons &#10140;</a>
+        </p>
+      </div>
+    </div>
+  </div>
 </main>
-

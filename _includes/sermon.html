@@ -1,0 +1,39 @@
+<p>
+  {% if include.sermon.series or include.sermon.title%}
+    <strong>
+      {% for series in site.data.sermon-series %}
+        {% if series.token == include.sermon.series %}
+          {% assign title = series.title %}
+
+          {% if series.prefix-title %}
+            {% assign title = series.prefix-title %}
+          {% endif %}
+
+          {{ title }}{% if include.sermon.title %}:{% endif %}
+        {% endif %}
+      {% endfor %}
+
+      {% if include.sermon.title %}
+        {{ include.sermon.title }}
+      {% endif %}
+    </strong>
+  {% endif %}
+
+  <br />
+
+  <em>{{ include.sermon.date }}</em>
+
+  {% if include.sermon.speaker %}
+    &mdash;
+    {{ include.sermon.speaker }}
+    <br />
+  {% endif %}
+
+  {% if include.sermon.audio %}
+    &#9654; <a href="{{ include.sermon.audio }}">Play Audio</a>
+  {% else %}
+    No audio available
+  {% endif %}
+
+  &#9679; <a href="{{ include.sermon.passage.link }}">{{ include.sermon.passage.text }}</a>
+</p>

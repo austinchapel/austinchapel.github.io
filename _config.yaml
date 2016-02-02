@@ -1,6 +1,8 @@
 sass:
   style: :compressed
 
+url: http://austinchapel.org
+
 permalink: pretty
 
 email: info@austinchapel.org
@@ -47,3 +49,14 @@ defaults:
       path: "js"
     values:
       layout: null
+  -
+    scope:
+      path: media/sermon-series
+    values:
+      layout: sermon-series
+
+gems:
+- jekyll-sitemap
+
+exclude:
+- README.md
