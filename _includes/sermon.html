@@ -1,0 +1,27 @@
+<p class=pyl>
+  {% if include.sermon.title %}
+    <strong>
+      {% if include.sermon.series %}
+        {{ include.sermon.series }}:
+      {% endif %}
+      {{ include.sermon.title }}
+    </strong>
+    &mdash;
+  {% endif %}
+
+  <em>{{ include.sermon.date }}</em>
+  <br />
+
+  {% if include.sermon.speaker %}
+    {{ include.sermon.speaker }}
+    <br />
+  {% endif %}
+
+  {% if include.sermon.audio %}
+    &#9654; <a href="{{ include.sermon.audio }}">Play Audio</a>
+  {% else %}
+    No audio available
+  {% endif %}
+
+  &#9679; <a href="{{ include.sermon.passage.link }}">{{ include.sermon.passage.text }}</a>
+</p>

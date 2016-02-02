@@ -1,6 +1,8 @@
 sass:
   style: :compressed
 
+url: http://austinchapel.org
+
 permalink: pretty
 
 email: info@austinchapel.org
@@ -47,3 +49,6 @@ defaults:
       path: "js"
     values:
       layout: null
+
+gems:
+- jekyll-sitemap
