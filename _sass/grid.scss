@@ -22,3 +22,9 @@
     width: 100%;
   }
 }
+
+@media (max-width: $md-breakpoint) {
+  .md-col-12 {
+    width: 100%;
+  }
+}

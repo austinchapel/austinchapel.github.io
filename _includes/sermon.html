@@ -1,4 +1,4 @@
-<p class=pyl>
+<p>
   {% if include.sermon.title %}
     <strong>
       {% if include.sermon.series %}
@@ -6,13 +6,14 @@
       {% endif %}
       {{ include.sermon.title }}
     </strong>
-    &mdash;
   {% endif %}
 
-  <em>{{ include.sermon.date }}</em>
   <br />
 
+  <em>{{ include.sermon.date }}</em>
+
   {% if include.sermon.speaker %}
+    &mdash;
     {{ include.sermon.speaker }}
     <br />
   {% endif %}
