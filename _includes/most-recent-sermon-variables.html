@@ -1,0 +1,22 @@
+{% assign sermon = site.data.sermons[-1] %}
+
+{% for s in site.data.sermons reversed %}
+  {% for series in site.data.sermon-series reversed %}
+    {% if series.token == s.series %}
+      {% assign series = series %}
+      {% assign title = series.title %}
+
+      {% if series.prefix-title %}
+        {% assign title = series.prefix-title %}
+      {% endif %}
+
+      {% break %}
+    {% endif %}
+  {% endfor %}
+
+  {% if title != null %}
+    {% assign link_alt_text = "All sermons for " | append: title | append: " series" %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+

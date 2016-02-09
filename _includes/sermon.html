@@ -1,10 +1,21 @@
 <p>
-  {% if include.sermon.title %}
+  {% if include.sermon.series or include.sermon.title%}
     <strong>
-      {% if include.sermon.series %}
-        {{ include.sermon.series }}:
+      {% for series in site.data.sermon-series %}
+        {% if series.token == include.sermon.series %}
+          {% assign title = series.title %}
+
+          {% if series.prefix-title %}
+            {% assign title = series.prefix-title %}
+          {% endif %}
+
+          {{ title }}{% if include.sermon.title %}:{% endif %}
+        {% endif %}
+      {% endfor %}
+
+      {% if include.sermon.title %}
+        {{ include.sermon.title }}
       {% endif %}
-      {{ include.sermon.title }}
     </strong>
   {% endif %}
 

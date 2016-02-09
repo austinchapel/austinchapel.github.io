@@ -1,5 +1,7 @@
 ---
 ---
+{% include most-recent-sermon-variables.html %}
+
 <header role=banner class="fullscreen bg bg-city">
   <div class="vcenter absolute text-center" style="margin-top: -40px; width: 100%;">
     <img src=/img/logos/austin-chapel-black.svg alt="Austin Chapel" style="max-width: 85%;"/>
@@ -42,12 +44,17 @@
   <div class="group bg-argyle">
     <div class="group col-9 mx-auto myxl">
       <div class="col col-6 sm-col-12 pm">
-        <img src="/img/sermon-series/hold-fast.jpg" alt="Current Sermon Series: Hold Fast, a Study of Hebrews" class=fit />
+        <a alt="{{ link_alt_text }}" class="block text-center pxxl mtxl" href="/media/sermon-series/{{ series.token }}/">
+          <div class=relative>
+            <div class="block col-12" style="content: ''; padding-top: 57.65%"></div>
+            <div class="bg bg-sermon-series-{{ series.token }} absolute top-0 left-0 right-0 bottom-0"></div>
+          </div>
+        </a>
       </div>
 
       <div class="col col-6 sm-col-12 pm">
         <p class=tl>
-        Join us this Sunday morning at ColdeTown Theater for worship and teaching.
+        Join us this Sunday morning at ColdTowne Theater for worship and teaching.
         </p>
 
         <p>
@@ -58,6 +65,12 @@
 
         <p>
           <a class="go-on block" href="/gatherings/#sunday-gathering">Directions and info &#10140;</a>
+        </p>
+
+        <p class=tl>
+          <a href="/media/sermon-series/{{ series.token }}/">
+            Our current sermon series: {{ title }} &#10140;
+          </a>
         </p>
       </div>
     </div>

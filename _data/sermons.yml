@@ -18,7 +18,7 @@
     We begin our series on Hebrews with the encouragement to hold fast to God's
     truth.
   speaker: Steven Montgomery
-  series: Hold Fast
+  series: hold-fast
 
 - date: October 10<sup>th</sup>, 2015
   title: Salvation
@@ -31,7 +31,7 @@
     profound truth.
   audio: /media-files/2015-10-12-message.mp4
   speaker: Steven Montgomery
-  series: Hold Fast
+  series: hold-fast
 
 - date: October 18<sup>th</sup>, 2015
   title: Consider Jesus
@@ -42,7 +42,7 @@
     We need to find our ultimate rest in Jesus
   audio: /media-files/2015-10-18-message.mp3
   speaker: Steven Montgomery
-  series: Hold Fast
+  series: hold-fast
 
 - date: October 25<sup>th</sup>, 2015
   title: The High Priest
@@ -54,7 +54,7 @@
     superior to the High Priests of the Old Testament.
   audio: /media-files/2015-10-25-message.mp3
   speaker: Steven Montgomery
-  series: Hold Fast
+  series: hold-fast
 
 - date: November 1<sup>st</sup>, 2015
   title: Anchor
@@ -66,7 +66,7 @@
     spiritually to be anchored to Him.
   audio: /media-files/2015-11-01-message.mp3
   speaker: Steven Montgomery
-  series: Hold Fast
+  series: hold-fast
 
 - date: November 8<sup>th</sup>, 2015
   title: Hebrews 7
@@ -74,7 +74,7 @@
     link: https://www.biblegateway.com/passage/?search=Hebrews+7&version=ESV
     text: Hebrews 7
   speaker: Steven Montgomery
-  series: Hold Fast
+  series: hold-fast
 
 - date: November 15<sup>th</sup>, 2015
   title: The Point
@@ -85,7 +85,7 @@
     Jesus's work as our High Priest is perfectly completed.
   audio: /media-files/2015-11-15-message.mp3
   speaker: Steven Montgomery
-  series: Hold Fast
+  series: hold-fast
 
 - date: November 22<sup>nd</sup>, 2015
   title: There Will Be Blood
@@ -97,7 +97,7 @@
     and New Testaments, God does not change.
   audio: /media-files/2015-11-22-message.mp3
   speaker: Steven Montgomery
-  series: Hold Fast
+  series: hold-fast
 
 - date: November 29<sup>th</sup>, 2015
   title: Confidence
@@ -109,7 +109,7 @@
     fast to God's truth. In Hebrews 10 we'll see how Jesus gives us the
     confidence.
   speaker: Steven Montgomery
-  series: Hold Fast
+  series: hold-fast
 
 - date: December 6<sup>th</sup>, 2015
   title: The Purpose of Faith
@@ -120,7 +120,7 @@
     This week's text is one of the most iconic in the God's Word, showing the
     power and purpose of faith.
   speaker: Steven Montgomery
-  series: Hold Fast
+  series: hold-fast
 
 - date: December 13<sup>th</sup>, 2015
   title: Truth Faith
@@ -129,7 +129,7 @@
     text: Hebrews 11:32-40
   audio: /media-files/2015-12-13-message.mp3
   speaker: Joshua Beurskens
-  series: Hold Fast
+  series: hold-fast
 
 - date: December 20<sup>th</sup>, 2015
   title: God With Us
@@ -146,7 +146,7 @@
     text: Hebrews 12:1-17
   audio: /media-files/2016-01-03-message.mp3
   speaker: Steven Montgomery
-  series: Hold Fast
+  series: hold-fast
 
 - date: January 10<sup>th</sup>, 2016
   title: Mountain Dwellers
@@ -155,7 +155,7 @@
     text: Hebrews 12:18-29
   audio: /media-files/2016-01-10-message.mp3
   speaker: Steven Montgomery
-  series: Hold Fast
+  series: hold-fast
 
 - date: January 17<sup>th</sup>, 2016
   title: Just Do Good
@@ -164,7 +164,7 @@
     text: Hebrews 13:1-16
   audio: /media-files/2016-01-17-message.mp3
   speaker: Steven Montgomery
-  series: Hold Fast
+  series: hold-fast
 
 - date: January 24<sup>th</sup>, 2016
   title: The Under-Rowing Ox
@@ -173,7 +173,24 @@
     text: Hebrews 13:17-25
   audio: /media-files/2016-01-24-message.mp3
   speaker: Steven Montgomery
-  series: Hold Fast
+  series: hold-fast
+
+- date: January 31<sup>st</sup>, 2016
+  title: Get in the Mud
+  passage:
+    link: https://www.biblegateway.com/passage/?search=Revelation+4&version=ESV
+    text: Revelation 4
+  audio: /media-files/2016-01-31-message.mp3
+  speaker: Scott Heider
+
+- date: February 7<sup>th</sup>, 2016
+  title: Midnight Run
+  passage:
+    link: https://www.biblegateway.com/passage/?search=Jonah+1%3A1-3&version=ESV
+    text: Jonah 1:1-3
+  audio: /media-files/2016-02-07-message.mp3
+  speaker: Steven Montgomery
+  series: jonah
 
 # Examples:
 # - date: August 28<sup>th</sup>, 2015
@@ -185,7 +202,7 @@
 #     comes
 #   audio: "#"
 #   speaker: Steven Montgomery
-#   series: Hold Fast
+#   series: hold-fast
 # - date: September 27<sup>th</sup>, 2015
 #   passage:
 #     link: https://www.biblegateway.com/passage/?search=psalm+73%3A25-26&version=ESV
