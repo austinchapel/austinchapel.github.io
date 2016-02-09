@@ -1,12 +1,21 @@
 (function() {
   var windowDimentsionStyles = document.createElement('style');
+  var lastHeight;
 
   document.head.appendChild(windowDimentsionStyles);
 
   function setWindowDimensionStyles() {
     var height = window.innerHeight;
-    windowDimentsionStyles.innerHTML = '.fullscreen {\n  height: ' + height +
-      'px;\n}';
+
+    // mobile browsers tend to trigger resize events when they hide their
+    // chrome (which makes the window slightly bigger). we don't want to
+    // reflect these small changes in the size at which we set `.fullscreen`,
+    // so we'll require them to be at least 20% different.
+    if (lastHeight == null || Math.abs(height - lastHeight) / lastHeight > .2) {
+      windowDimentsionStyles.innerHTML = '.fullscreen {\n  height: ' + height +
+        'px;\n}';
+      lastHeight = height;
+    }
   }
 
   // only bind to orientationchange because resize fires when the browser
