@@ -9,25 +9,24 @@ title: Media
 
 {% include nav.html %}
 
-<main role=main class="dark-bg">
-  <div class="group container col-9 pxm md-col-12 mym">
-    <div class="nmlm">
-      <div class="col col-6 plm md-col-12">
-        <a alt="{{ link_alt_text }}" class="block text-center pxxl mtxl" href="/media/sermon-series/{{ series.token }}/">
-          <div class=relative>
+<main role=main class="dark-bg pxm mym">
+  <div class="group container col-9 md-col-12">
+    <div class=nmlm>
+      <div class="col col-6 md-col-12 plm mbm">
+        <a alt="{{ link_alt_text }}" class="block text-center" href="/media/sermon-series/{{ series.token }}/">
+          <div class="relative overflow-hidden" style="max-height: 210px">
             <div class="block col-12" style="content: ''; padding-top: 57.65%"></div>
             <div class="bg bg-sermon-series-{{ series.token }} absolute top-0 left-0 right-0 bottom-0"></div>
           </div>
         </a>
       </div>
 
-      <div class="tl col col-6 plm md-col-12">
-
-        <h2>Most recent message:</h2>
+      <div class="col col-6 md-col-12 plm mbm tl">
+        <h2 class=mt0>Most recent message:</h2>
 
         {% include sermon.html sermon=sermon %}
 
-        <h4>
+        <h4 class=mym>
           <a href="/media/sermon-series/{{ series.token }}/">
             {{ link_alt_text }} &#10140;
           </a>
@@ -36,16 +35,14 @@ title: Media
     </div>
   </div>
 
-  <div class="group container col-9 pxm md-col-12">
-    <div class="nmlm myxl">
-      <div class="col col-6 plm md-col-12">
-        <h2>
-          Sermon Series
-        </h2>
+  <div class="group container col-9 md-col-12">
+    <div class=nmlm>
+      <div class="col col-6 md-col-12 plm mbm">
+        <h2 class=mt0>Sermon Series</h2>
 
-        <ul class="no-bullet tl pl0">
+        <ul class="no-bullet tl pl0 mt0 mb0">
           {% for series in site.data.sermon-series reversed %}
-            <li class=mym>
+            <li class=mbm>
               <a href="/media/sermon-series/{{ series.token }}/">
                 {{ series.title }} &#10140;
               </a>
@@ -54,8 +51,8 @@ title: Media
         </ul>
       </div>
 
-      <div class="col col-6 plm md-col-12">
-        <h2>Recent Sermons</h2>
+      <div class="col col-6 md-col-12 plm mbm">
+        <h2 class=mt0>Recent Sermons</h2>
 
         {% for sermon in site.data.sermons reversed %}
           {% if forloop.index < 4 %}
