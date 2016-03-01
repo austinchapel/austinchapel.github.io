@@ -210,6 +210,15 @@
   speaker: Steven Montgomery
   series: jonah
 
+- date: February 28<sup>th</sup>, 2016
+  title: Revival
+  passage:
+    link: https://www.biblegateway.com/passage/?search=Jonah+3&version=ESV
+    text: Jonah 3
+  audio: /media-files/2016-02-28-message.mp3
+  speaker: Joshua Beurskens
+  series: jonah
+
 # Examples:
 # - date: August 28<sup>th</sup>, 2015
 #   passage:
