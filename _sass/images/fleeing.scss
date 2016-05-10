@@ -1,0 +1,25 @@
+abc
+def
+.bg-fleeing {
+  background-image: url(/img/fleeing/landscape.jpg);
+}
+@media (max-width: 2048px) {
+  .bg-fleeing {
+    background-image: url(/img/fleeing/landscape-2048.jpg);
+  }
+}
+@media (max-width: 1440px) {
+  .bg-fleeing {
+    background-image: url(/img/fleeing/landscape-1440.jpg);
+  }
+}
+@media (max-width: 1024px) {
+  .bg-fleeing {
+    background-image: url(/img/fleeing/landscape-1024.jpg);
+  }
+}
+@media (max-width: 768px) {
+  .bg-fleeing {
+    background-image: url(/img/fleeing/landscape-768.jpg);
+  }
+}

@@ -21,6 +21,12 @@
 
     {% include fonts.html %}
 
+    {% if page.extra_css %}
+      <style>
+        {{ page.extra_css }}
+      </style>
+    {% endif %}
+
   </head>
   <body class="{{ page.body-classes }}">
 

@@ -1,0 +1,25 @@
+abc
+def
+.bg-fenced {
+  background-image: url(/img/fenced/landscape.jpg);
+}
+@media (max-width: 2048px) {
+  .bg-fenced {
+    background-image: url(/img/fenced/landscape-2048.jpg);
+  }
+}
+@media (max-width: 1440px) {
+  .bg-fenced {
+    background-image: url(/img/fenced/landscape-1440.jpg);
+  }
+}
+@media (max-width: 1024px) {
+  .bg-fenced {
+    background-image: url(/img/fenced/landscape-1024.jpg);
+  }
+}
+@media (max-width: 768px) {
+  .bg-fenced {
+    background-image: url(/img/fenced/landscape-768.jpg);
+  }
+}

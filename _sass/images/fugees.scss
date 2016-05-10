@@ -1,0 +1,44 @@
+abc
+def
+@media (orientation: landscape) {
+  .bg-fugees {
+    background-image: url(/img/fugees/landscape.jpg);
+  }
+}
+@media (orientation: landscape) and (max-width: 2048px) {
+  .bg-fugees {
+    background-image: url(/img/fugees/landscape-2048.jpg);
+  }
+}
+@media (orientation: landscape) and (max-width: 1440px) {
+  .bg-fugees {
+    background-image: url(/img/fugees/landscape-1440.jpg);
+  }
+}
+@media (orientation: landscape) and (max-width: 1024px) {
+  .bg-fugees {
+    background-image: url(/img/fugees/landscape-1024.jpg);
+  }
+}
+@media (orientation: landscape) and (max-width: 768px) {
+  .bg-fugees {
+    background-image: url(/img/fugees/landscape-768.jpg);
+  }
+}
+abc
+def
+@media (orientation: portrait) {
+  .bg-fugees {
+    background-image: url(/img/fugees/portrait.jpg);
+  }
+}
+@media (orientation: portrait) and (max-width: 1024px) {
+  .bg-fugees {
+    background-image: url(/img/fugees/portrait-1024.jpg);
+  }
+}
+@media (orientation: portrait) and (max-width: 768px) {
+  .bg-fugees {
+    background-image: url(/img/fugees/portrait-768.jpg);
+  }
+}
