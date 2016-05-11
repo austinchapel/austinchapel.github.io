@@ -1,0 +1,182 @@
+---
+layout: default
+give: https://donate.worldvision.org/checkout/cart/
+event: https://www.facebook.com/events/1734807423408619/
+extra_css: |
+  .over-text {
+    background-color: black;
+    color: white;
+    padding: 0 .1em 0 .1em;
+  }
+
+  .hero-button-container {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-bottom: 5rem;
+  }
+
+  .hero-button {
+    background-color: white;
+    border: 0.5rem solid black;
+    padding: 0.5rem;
+    width: 15rem;
+  }
+
+  .hero-button a {
+    border: none;
+    color: black;
+  }
+
+  .hero-button + .hero-button {
+    margin-left: 2rem;
+  }
+
+  @media (max-width: 579px) {
+    .hero-button + .hero-button {
+      margin-left: 0;
+    }
+
+    .hero-button-container {
+      margin-bottom: 3rem;
+    }
+  }
+
+  .hard-sell {
+    font-size: 6rem;
+    padding: 0.16em;
+    margin-top: 0;
+    font-weight: bold;
+    text-align: left;
+    letter-spacing: 0.03em;
+    line-height: 0.9em;
+    text-transform: uppercase;
+  }
+
+  .hard-sell small {
+    text-transform: none;
+    font-weight: normal;
+  }
+
+  @media (max-width: 520px) {
+    .hard-sell {
+      font-size: 3.7rem;
+    }
+  }
+
+  cite:before {
+    content: "";
+  }
+---
+
+<header role=banner class="fullscreen bg bg-fugees">
+  <h1 class=hard-sell>
+    4.8 million refugees<br/>
+    <small>Half are children</small>
+  </h1>
+
+  <div class="absolute text-center hero-button-container"
+      style=" ">
+    <div class="inline-block give-button hero-button">
+      <a href="{{ page.give }}">Donate now &#10140;</a>
+    </div>
+
+    <div class="inline-block give-button hero-button">
+      <a href="{{ page.event }}">Refugee Sunday &#10140;</a>
+    </div>
+  </div>
+</header>
+
+{% include nav.html %}
+
+<main role=main>
+  <div class="abstract bg-concrete">
+    <p>
+      The Syrian Civil War that began in 2011 has put 13.5 million in need of help. They are fleeing brutal violence and the collapes of their home country's infrastructure.
+    </p>
+
+    <h2>The Facts</h2>
+
+    <ul style="line-height: 1.5em;">
+      <li>
+        The conflict has created <a href="http://data.unhcr.org/syrianrefugees/regional.php">4.8 million refugees, half of which are children.</a>
+      </li>
+
+      <li>
+        Beyond that, there are <a href="http://www.unocha.org/syria">6.6 million people displaced from their homes within Syria.</a>
+      </li>
+
+      <li>
+        <a href="https://en.wikipedia.org/wiki/Syrian_Civil_War#Partial_Ceasefire_.2826_February_2016.E2.80.93present.29">As of February 26<sup>th</sup>, there is a partial ceasefire</a> providing the opportunity for humanitarian aid to people cut off for months.
+      </li>
+    </ul>
+  </div>
+
+  <hr />
+
+  <div class="bg fullscreen fullscreen-black bg-fleeing">
+    <blockquote>
+      <span class=over-text>I was naked and you clothed me, I was sick and you
+      visited me, I was in prison and you came to me.</span>
+
+      <cite><span class=over-text>Matthew 25:36</span></cite>
+    </blockquote>
+  </div>
+
+  <hr />
+
+  <div class="abstract bg-concrete">
+    <p>
+      We believe in <a href="https://www.biblegateway.com/passage/?search=Hebrews+11%3A16&version=ESV">a God that promises a better home</a>. While we cannot begin to understand the depth of this tragedy, we are certain that He calls us to stand up for those afflicted. He calls us <a href="https://www.biblegateway.com/passage/?search=Isaiah+1%3A17&version=ESV">to fight for</a>, <a href="https://www.biblegateway.com/passage/?search=Leviticus+19:34&version=ESV">to welcome, and to love</a> the people that have been forced from their homes.
+    </p>
+  </div>
+
+  <hr />
+
+  <div class="bg halfscreen bg-fenced">
+    <h1 class=hard-sell>
+      <small class=over-text>You can help</small>
+    </h1>
+
+  </div>
+
+  <hr />
+
+  <div class="abstract bg-argyle dark-bg">
+    <a style="" href="{{ page.give }}"><h2>Give</h2></a>
+
+    <p>
+      Meet the most urgent needs of those affected in a tangible way. Give to
+      provide life-saving essentials.
+    </p>
+
+    <p class=give-button>
+      <a href="{{ page.give }}"`>
+        Give now &#10140;
+      </a>
+    </p>
+
+    <h2>Learn</h2>
+
+    <p>
+      Understand more about the conflict, the devastation, and the aftermath of
+      this crisis.
+    </p>
+
+    <ul>
+      <li>
+        <a href="{{ page.event }}"</a>Austin Chapel is hosting an event</a> Sunday May 15<sup>th</sup>. Join us and bring a friend.
+      </li>
+
+      <li>
+        <a href="">World Vision has a wealth of resources</a> to help dig deeper into the problem.
+      </li>
+    </ul>
+
+    <h2>Pray</h2>
+
+    <p>
+      <a href="https://www.biblegateway.com/passage/?search=John+15%3A7-8&version=ESV">Prayer changes things</a>. Remember the victims of this crisis in your prayers.
+    </p>
+  </div>
+</main>
