@@ -11,6 +11,9 @@
     // chrome (which makes the window slightly bigger). we don't want to
     // reflect these small changes in the size at which we set `.fullscreen`,
     // so we'll require them to be at least 20% different.
+    //
+    // cross them fingers for a fix to land!
+    // https://bugs.chromium.org/p/chromium/issues/detail?id=428132#c49
     if (lastHeight == null || Math.abs(height - lastHeight) / lastHeight > .2) {
       windowDimentsionStyles.innerHTML = '.fullscreen {\n  height: ' + height +
         'px;\n}\n.halfscreen {\n  height: ' + (height / 2) + 'px;\n}';
