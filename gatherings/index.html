@@ -88,26 +88,6 @@ title: Gatherings
 
   <hr />
 
-  <div class="container col-5 sm-col-12 pxm">
-    <h2 class="mb0">
-      Events
-    </h2>
-
-    {% for post in site.posts %}
-      <a class="group myxl block" href="{{ post.url }}">
-        <img
-          style="height: 4rem;"
-          class="float-left"
-          src={% cycle '/img/thumbnails/people.jpg', '/img/thumbnails/spire.jpg', '/img/thumbnails/vision.jpg', '/img/thumbnails/hyde-park-theater.jpg' %} />
-        <div class="overflow-hidden pxm">
-          {{ post.formatted-date }} {{ post.title }}
-        </div>
-      </a>
-    {% endfor %}
-  </div>
-
-  <hr />
-
   <div class=abstract>
     <p>
       Let us consider how to stir up one another to love and good works, not

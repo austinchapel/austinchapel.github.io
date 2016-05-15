@@ -5,7 +5,7 @@ $nav-inter-link-spacing: 2rem;
 
 // this really depends how many links we have. if we have the logo and then
 // more than 3 links, we'll need to increase this.
-$nav-breakpoint: 760px;
+$nav-breakpoint: 900px;
 
 .always-fixed-nav {
   margin-top: $nav-line-height;

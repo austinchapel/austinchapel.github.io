@@ -18,23 +18,19 @@ people:
     email: tmontgomery1964@gmail.com
 
 nav:
--
-  text: Home
+- text: Home
   url: /
--
-  text: About
+- text: About
   url: /about/
--
-  text: Gatherings
+- text: Gatherings
   url: /gatherings/
--
-  text: Media
+- text: Causes
+  url: /syrian-refugees/
+- text: Media
   url: /media/
--
-  text: Give
+- text: Give
   url: /give/
--
-  text: Contact
+- text: Contact
   url: /contact/
 
 defaults:
