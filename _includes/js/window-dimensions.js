@@ -13,7 +13,7 @@
     // so we'll require them to be at least 20% different.
     if (lastHeight == null || Math.abs(height - lastHeight) / lastHeight > .2) {
       windowDimentsionStyles.innerHTML = '.fullscreen {\n  height: ' + height +
-        'px;\n}';
+        'px;\n}\n.halfscreen {\n  height: ' + (height / 2) + 'px;\n}';
       lastHeight = height;
     }
   }
