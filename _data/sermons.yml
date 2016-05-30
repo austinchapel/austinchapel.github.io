@@ -254,6 +254,24 @@
   audio: /media-files/2016-05-01-message.mp3
   speaker: Steven Montgomery
 
+- date: May 22<sup>nd</sup>, 2016
+  title: Noah
+  passage:
+    link: https://www.biblegateway.com/passage/?search=Genesis%206&version=ESV
+    text: "Genesis 6"
+  audio: /media-files/2016-05-22-message.mp3
+  speaker: Steven Montgomery
+  series: dream-house
+
+- date: May 29<sup>th</sup>, 2016
+  title: Nehemiah
+  passage:
+    link: https://www.biblegateway.com/passage/?search=Nehemiah+1&version=ESV
+    text: Nehemiah 1
+  audio: /media-files/2016-05-29-message.mp3
+  speaker: Steven Montgomery
+  series: dream-house
+
 # Examples:
 # - date: August 28<sup>th</sup>, 2015
 #   passage:
