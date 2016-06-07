@@ -272,6 +272,15 @@
   speaker: Steven Montgomery
   series: dream-house
 
+- date: June 5<sup>th</sup>, 2016
+  title: David
+  passage:
+    link: https://www.biblegateway.com/passage/?search=1+Samuel&version=ESV
+    text: 1 Samuel
+  audio: /media-files/2016-06-05-message.m4a
+  speaker: Steven Montgomery
+  series: dream-house
+
 # Examples:
 # - date: August 28<sup>th</sup>, 2015
 #   passage:
