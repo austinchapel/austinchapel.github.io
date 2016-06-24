@@ -26,3 +26,16 @@
 .beliefs a:target {
   color: black;
 }
+
+.beliefs p a {
+  margin-right: 0.5rem;
+}
+
+.beliefs p a:first-child {
+  margin-left: 0.5rem;
+}
+
+.beliefs p a:last-child {
+  line-height: 2rem;
+  margin-left: 0.5rem;
+}

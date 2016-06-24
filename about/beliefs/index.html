@@ -40,11 +40,23 @@ description: >-
       <p id="{{ doctrine.summary | slugify }}">
         {{ doctrine.full }}
 
+        {% for reference in doctrine.references %}
+          <a href="{{ reference.link }}">{{ reference.text }}</a>
+        {% endfor %}
+
         {% if doctrine.summary %}
-          <a href="#{{ doctrine.summary | slugify }}-anchor">&#8617;</a>
+          <br />
+          <a href="#{{ doctrine.summary | slugify }}-anchor">Back to the top &#8617;</a>
         {% endif %}
       </p>
+
     {% endif %}
   {% endfor %}
 </main>
 
+<script>
+  // Allow for the nav bar when the browser scrolls to an anchor
+  window.onhashchange = function() {
+    window.scrollTo(0, window.scrollY - 60);
+  };
+</script>
