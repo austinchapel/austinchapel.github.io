@@ -13,3 +13,16 @@
 .beliefs li {
   margin-bottom: 1rem;
 }
+
+.beliefs :target {
+  background-color: white;
+  color: black;
+
+  a {
+    color: black;
+  }
+}
+
+.beliefs a:target {
+  color: black;
+}

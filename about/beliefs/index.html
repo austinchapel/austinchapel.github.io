@@ -21,12 +21,17 @@ description: >-
 
   <ul>
     {% for doctrine in site.data.beliefs.doctrine %}
-      <li>
-        {{ doctrine.summary }}
-        <a id="{{ doctrine.summary | slugify }}-anchor" href="#{{ doctrine.summary | slugify }}">
-          &#10140;
-        </a>
-      </li>
+      {% if doctrine.summary %}
+        <li>
+          {{ doctrine.summary }}
+
+          {% if doctrine.full %}
+            <a id="{{ doctrine.summary | slugify }}-anchor" href="#{{ doctrine.summary | slugify }}">
+              &#10140;
+            </a>
+          {% endif %}
+        </li>
+      {% endif %}
     {% endfor %}
   </ul>
 
@@ -34,7 +39,10 @@ description: >-
     {% if doctrine.full %}
       <p id="{{ doctrine.summary | slugify }}">
         {{ doctrine.full }}
-        <a href="#{{ doctrine.summary | slugify }}-anchor">&#8617;</a>
+
+        {% if doctrine.summary %}
+          <a href="#{{ doctrine.summary | slugify }}-anchor">&#8617;</a>
+        {% endif %}
       </p>
     {% endif %}
   {% endfor %}
