@@ -60,3 +60,7 @@ gems:
 
 exclude:
 - README.md
+
+app:
+  ios: "https://itunes.com/apps/bulletinplus"
+  android: "https://play.google.com/store/apps/details?id=com.pixelark.bulletinplusandroid"

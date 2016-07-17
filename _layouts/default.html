@@ -43,5 +43,9 @@
   ga('create', 'UA-45308206-6', 'auto');
   ga('send', 'pageview');
   </script>
+
+  {% for item in page.after_analytics %}
+    {% include {{ item }}.html %}
+  {% endfor %}
   </body>
 </html>

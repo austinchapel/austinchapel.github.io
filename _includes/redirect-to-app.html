@@ -1,0 +1,7 @@
+<script>
+  var ua = navigator.userAgent || navigator.vendor || window.opera;
+  if (/iphone/i.test(ua) || /ipad/i.test(ua) || /ipod/i.test(ua))
+    location = "{{ site.app.ios }}";
+  else
+    location = "{{ site.app.android }}";
+</script>
