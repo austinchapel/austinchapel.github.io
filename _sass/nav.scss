@@ -93,11 +93,11 @@ nav.open  .nav-menu {
 }
 
 .hamburger .ex:first-child {
-  @include transform(rotate(45deg) translate(5px, -11px));
+  @include transform(rotate(45deg) translate(6px, -9px));
 }
 
 .hamburger .ex:last-child {
-  @include transform(rotate(-45deg) translate(11px, 5px));
+  @include transform(rotate(-45deg) translate(9px, 6px));
 }
 
 .ex {
