@@ -30,7 +30,9 @@
 
   {{ content }}
 
+  {% if !page.no_footer %}
   {% include footer.html %}
+  {% endif %}
 
   <script async src=/js/index.js></script>
 
