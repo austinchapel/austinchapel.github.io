@@ -92,6 +92,10 @@ nav.open  .nav-menu {
   left: 20%;
 }
 
+.hamburger span {
+  display: block;
+}
+
 .hamburger .ex:first-child {
   @include transform(rotate(45deg) translate(6px, -9px));
 }
