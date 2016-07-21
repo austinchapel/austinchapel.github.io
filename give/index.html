@@ -30,11 +30,15 @@ description: >-
     </cite>
   </blockquote>
 
+  <button class=tithely-give-btn data-church-id="30098">
+    Give online with Tithe.ly &#10140;
+  </button>
+
   <form class=give-button action=https://www.paypal.com/cgi-bin/webscr method=post target=_top>
     <input type=hidden name=cmd value=_s-xclick />
     <input type=hidden name=hosted_button_id value=BV9JVLGMFMJZ8 />
     <button type=submit>
-      Give securely online &#10140;
+      Give online with PayPal &#10140;
     </button>
     <img alt="" src=https://www.paypalobjects.com/en_US/i/scr/pixel.gif width=1 height=1 />
   </form>
@@ -43,3 +47,9 @@ description: >-
   Austin Chapel is a 501(c)(3) non-profit organization.
   </p>
 </main>
+
+<script src="https://tithe.ly/widget/v2/give.js?3"></script>
+<script>
+  var config = {};
+  var tw = create_tithely_widget(config);
+</script>
