@@ -2,6 +2,22 @@
   font-size: 1.5rem;
 }
 
+.upcase {
+  text-transform: uppercase;
+}
+
+.tdn {
+  text-decoration: none;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.bold {
+  font-weight: bold;
+}
+
 @media (max-width: $sm-breakpoint) {
   font-size: 1rem;
 }

@@ -119,3 +119,26 @@ cite {
   font-style: italic;
   text-align: right;
 }
+
+.sunday-info {
+  p {
+    margin-top: 0.6rem;
+    margin-bottom: 2rem;
+  }
+}
+
+.index-logo {
+  max-width: 80%;
+}
+
+@media screen and (max-height: 480px) {
+  .index-logo {
+    max-width: 12%;
+  }
+}
+
+@media screen and (max-height: 667px) {
+  .index-logo {
+    max-width: 70%;
+  }
+}
