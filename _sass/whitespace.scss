@@ -1,3 +1,4 @@
+$s: 0.5rem;
 $m: 1rem;
 $l: 1.5rem;
 $xl: 2rem;
@@ -38,6 +39,11 @@ $xxl: 3rem;
 .mym {
   margin-top: $m;
   margin-bottom: $m;
+}
+
+.mxs {
+  margin-left: $s;
+  margin-right: $s;
 }
 
 .myxl {
