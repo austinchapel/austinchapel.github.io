@@ -11,7 +11,7 @@
   {% endif %}
 {% endfor %}
 
-{% assign link_alt_text = "All sermons for " | append: title | append: " series" %}
+{% assign sermon_series_description_text = "All sermons for " | append: title | append: " series" %}
 
 {% if series %}
   {% assign sermon_series_image_class = 'bg-sermon-series-{{ series.token }}' %}

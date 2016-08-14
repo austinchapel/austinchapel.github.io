@@ -35,5 +35,7 @@
     No audio available
   {% endif %}
 
-  &#9679; <a href="{{ include.sermon.passage.link }}">{{ include.sermon.passage.text }}</a>
+  {% if include.sermon.passage.text %}
+    &#9679; <a href="{{ include.sermon.passage.link }}">{{ include.sermon.passage.text }}</a>
+  {% endif %}
 </p>
