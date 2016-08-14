@@ -14,7 +14,7 @@
 {% assign sermon_series_description_text = "All sermons for " | append: title | append: " series" %}
 
 {% if series and series.has_image %}
-  {% assign sermon_series_image_class = 'bg-sermon-series-{{ series.token }}' %}
+{% capture sermon_series_image_class %}bg-sermon-series-{{ series.token }}{% endcapture %}
 {% else %}
   {% assign sermon_series_image_class = 'bg-sermon-series-default' %}
 {% endif %}

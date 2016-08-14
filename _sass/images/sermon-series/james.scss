@@ -1,0 +1,18 @@
+.bg-sermon-series-james {
+  background-image: url(/img/sermon-series/james/landscape.jpg);
+}
+@media (max-width: 1440px) {
+  .bg-sermon-series-james {
+    background-image: url(/img/sermon-series/james/landscape-1440.jpg);
+  }
+}
+@media (max-width: 1024px) {
+  .bg-sermon-series-james {
+    background-image: url(/img/sermon-series/james/landscape-1024.jpg);
+  }
+}
+@media (max-width: 768px) {
+  .bg-sermon-series-james {
+    background-image: url(/img/sermon-series/james/landscape-768.jpg);
+  }
+}
