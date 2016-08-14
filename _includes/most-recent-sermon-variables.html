@@ -1,22 +1,21 @@
 {% assign sermon = site.data.sermons[-1] %}
 
-{% for s in site.data.sermons reversed %}
-  {% for series in site.data.sermon-series reversed %}
-    {% if series.token == s.series %}
-      {% assign series = series %}
-      {% assign title = series.title %}
+{% for series in site.data.sermon-series %}
+  {% if series.token == sermon.series %}
+    {% assign series = series %}
+    {% assign title = series.title %}
 
-      {% if series.prefix-title %}
-        {% assign title = series.prefix-title %}
-      {% endif %}
-
-      {% break %}
+    {% if series.prefix-title %}
+      {% assign title = series.prefix-title %}
     {% endif %}
-  {% endfor %}
-
-  {% if title != null %}
-    {% assign link_alt_text = "All sermons for " | append: title | append: " series" %}
-    {% break %}
   {% endif %}
 {% endfor %}
+
+{% assign link_alt_text = "All sermons for " | append: title | append: " series" %}
+
+{% if series %}
+  {% assign sermon_series_image_class = 'bg-sermon-series-{{ series.token }}' %}
+{% else %}
+  {% assign sermon_series_image_class = 'bg-sermon-series-default' %}
+{% endif %}
 

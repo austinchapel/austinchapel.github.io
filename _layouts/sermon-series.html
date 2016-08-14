@@ -21,11 +21,15 @@ body-classes: bg-argyle
       <div class="bg bg-sermon-series-{{ series.token }} absolute top-0 left-0 right-0 bottom-0"></div>
     </div>
   {% else %}
-    <h2>{{ series.title }}</h2>
+    {% if series %}
+      <h2>{{ series.title }}</h2>
+    {% else %}
+      <h2>All sermons</h2>
+    {% endif %}
   {% endif %}
 
   {% for sermon in site.data.sermons reversed %}
-    {% if token == sermon.series or (token == 'individual-messages' and sermon.series == null) %}
+    {% if series == null or token == sermon.series or (token == 'individual-messages' and sermon.series == null) %}
       {% include sermon.html sermon=sermon %}
     {% endif %}
   {% endfor %}
