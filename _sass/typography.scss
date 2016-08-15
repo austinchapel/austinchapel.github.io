@@ -18,6 +18,18 @@
   font-weight: bold;
 }
 
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
 @media (max-width: $sm-breakpoint) {
   font-size: 1rem;
 }

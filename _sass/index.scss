@@ -128,7 +128,7 @@ cite {
 }
 
 .index-logo {
-  max-width: 40%;
+  max-width: 200px;
 }
 
 @media screen and (max-height: 480px) {
@@ -137,8 +137,18 @@ cite {
   }
 }
 
-@media screen and (max-height: 800px) {
+@media screen and (max-height: 740px) and (orientation: portrait) {
   .index-logo {
     max-width: 40%;
+  }
+}
+
+@media (max-height: 800px) and (orientation: portrait) {
+  .index-page-stacked {
+    display: block;
+  }
+
+  .index-page-side-by-side {
+    display: none;
   }
 }

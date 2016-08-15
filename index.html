@@ -5,8 +5,17 @@ description: >-
   and demonstrated better way of life. We believe that he has broken the chains
   of sin and hurt, and we find freedom and salvation in his love.
 ---
+{% assign directions_url = 'http://maps.google.com/maps?oe=utf-8&rls=org.mozilla:en-US:official&client=firefox-a&um=1&ie=UTF-8&cid=0,0,1716055280568195830&fb=1&hq=coldtowne+theater&hnear=0x8644b599a0cc032f:0x5d9b464bd469d57a,Austin,+TX&gl=us&daddr=4803+Airport+Blvd+%23+C,+Austin,+TX+78751&geocode=3822923182966997290,30.308031,-97.715266&ei=-Jw0TpmEOYHagAf3jdmHDQ&sa=X&oi=local_result&ct=directions-to&resnum=1&ved=0CB4QngIwAA' %}
+{% capture directions_link %}
+  <a href="{{ directions_url }}"
+     class="tdn bold italic"
+     style="background-color: black;
+            color: #B7F8DA;
+            padding: 0 0.4rem;">Directions &#10140;</a>
+{% endcapture %}
+
 <header class="fullscreen relative bg bg-city">
-  <div class="vcenter absolute text-center" style="margin-top: -60px; width: 100%;">
+  <div class="index-page-stacked hidden vcenter absolute text-center" style="margin-top: -60px; width: 100%;">
     <img class=index-logo src=/img/logos/austin-chapel-black.svg alt="Austin Chapel" />
 
     <div class="sunday-info">
@@ -16,14 +25,25 @@ description: >-
       </h1>
 
       <p class="upcase text-center tl">
-        <a
-          href="http://maps.google.com/maps?oe=utf-8&rls=org.mozilla:en-US:official&client=firefox-a&um=1&ie=UTF-8&cid=0,0,1716055280568195830&fb=1&hq=coldtowne+theater&hnear=0x8644b599a0cc032f:0x5d9b464bd469d57a,Austin,+TX&gl=us&daddr=4803+Airport+Blvd+%23+C,+Austin,+TX+78751&geocode=3822923182966997290,30.308031,-97.715266&ei=-Jw0TpmEOYHagAf3jdmHDQ&sa=X&oi=local_result&ct=directions-to&resnum=1&ved=0CB4QngIwAA"
-          class="tdn bold italic"
-          style="background-color: black;
-                 color: #B7F8DA;
-                 padding: 0 0.4rem;">Directions &#10140;</a>
+        {{ directions_link }}
       </p>
     </div>
+  </div>
+
+  <div class="index-page-side-by-side vcenter absolute text-center" style="width: 100%;">
+    <div class=inline-block>
+      <h1 class="upcase text-right mb0 mt0">
+        Sundays<br>
+        11 AM<br>
+        ColdTowne Theater
+      </h1>
+
+      <p class="upcase text-right tl">
+        {{ directions_link }}
+      </p>
+    </div>
+
+    <img class="index-logo inline-block" src=/img/logos/austin-chapel-black.svg alt="Austin Chapel" />
   </div>
 
   <div class="banner-contact float-right">
