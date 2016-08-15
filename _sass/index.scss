@@ -128,7 +128,7 @@ cite {
 }
 
 .index-logo {
-  max-width: 80%;
+  max-width: 40%;
 }
 
 @media screen and (max-height: 480px) {
@@ -137,8 +137,8 @@ cite {
   }
 }
 
-@media screen and (max-height: 667px) {
+@media screen and (max-height: 800px) {
   .index-logo {
-    max-width: 70%;
+    max-width: 40%;
   }
 }
