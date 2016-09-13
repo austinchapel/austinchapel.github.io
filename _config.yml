@@ -62,5 +62,5 @@ exclude:
 - README.md
 
 app:
-  ios: "https://itunes.com/apps/bulletinplus"
-  android: "https://play.google.com/store/apps/details?id=com.pixelark.bulletinplusandroid"
+  ios: "https://itunes.apple.com/us/app/austin-chapel/id1150619078"
+  android: "https://play.google.com/store/apps/details?id=com.pixelark.austinchapel"
