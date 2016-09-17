@@ -28,7 +28,6 @@ p {
 .abstract p {
   font-size: 1.5rem;
   line-height: 1.9rem;
-  letter-spacing: 0.2px;
 }
 
 .abstract > * {
@@ -120,12 +119,6 @@ cite {
   text-align: right;
 }
 
-.sunday-info {
-  p {
-    margin-top: 0.6rem;
-    margin-bottom: 2rem;
-  }
-}
 
 .index-logo {
   max-width: 40%;
@@ -142,3 +135,55 @@ cite {
     max-width: 40%;
   }
 }
+
+.sunday-info {
+  background-color: black;
+  display: inline-block;
+  color: white;
+  margin-top: .5em;
+  padding: .7em;
+  font-size: .7rem;
+
+  p {
+    margin-top: .2em;
+    margin-bottom: 0;
+    font-size: 2em;
+  }
+
+  a {
+    font-family: $title-font-family;
+    color: $accent-color;
+  }
+}
+
+@media screen and (min-width: 375px) {.sunday-info {font-size: .8rem;}}
+
+.new-logo {
+  font-size: 3rem;
+  padding: 0 .167em .111em;
+  background-color: black;
+  display: inline-block;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.0889em;
+  font-family: $logo-font-family;
+
+  .make-it-pop-tho {
+    color: $accent-color;
+    padding-left: 0.0556em;
+  }
+
+  .cheesy-sentence-fragment {
+    font-size: .2778em;
+    text-align: right;
+    color: #B2B2B2;
+    letter-spacing: 0.12em;
+    margin-top: -0.6em;
+    padding-right: 0.15em;
+  }
+}
+
+@media screen and (min-width: 375px) {.new-logo {font-size: 3.5rem;}}
+@media screen and (min-width: 660px) {.new-logo {font-size:   6rem;}}
+@media screen and (min-width: 930px) {.new-logo {font-size:   9rem;}}
+
