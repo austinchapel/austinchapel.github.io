@@ -19,13 +19,11 @@
 
     <link rel=stylesheet href=/css/index.css>
 
-    {% include fonts.html %}
-
     {% if page.extra_css %}
       <style>{{ page.extra_css }}</style>
     {% endif %}
-
   </head>
+
   <body class="{{ page.body-classes }}">
 
   {{ content }}

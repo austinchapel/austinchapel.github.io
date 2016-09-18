@@ -10,47 +10,51 @@
   display: inline-block;
 }
 
+.logo + .logo {
+  margin-left: 1rem;
+}
+
 .logo:first-child {
   margin-left: 0;
 }
 
 .logo.email {
-  background-image: url(/img/logos/email.svg);
+  background-image: url(/img/logos/email.png);
 
-  &:hover {
-    background-image: url(/img/logos/email-negative.svg);
-  }
+  // &:hover {
+  //   background-image: url(/img/logos/email-negative.svg);
+  // }
 }
 
 .bg-argyle .logo.email,
 .dark-bg .logo.email {
-  background-image: url(/img/logos/email-white.svg);
+  background-image: url(/img/logos/email.png);
 }
 
 .logo.fb {
-  background-image: url(/img/logos/fb.svg);
+  background-image: url(/img/logos/fb.png);
 
-  &:hover {
-    background-image: url(/img/logos/fb-negative.svg);
-  }
+  // &:hover {
+  //   background-image: url(/img/logos/fb-negative.svg);
+  // }
 }
 
 .bg-argyle .logo.fb,
 .dark-bg .logo.fb {
-  background-image: url(/img/logos/fb-white.svg);
+  background-image: url(/img/logos/fb.png);
 }
 
 .logo.insta {
-  background-image: url(/img/logos/insta.svg);
+  background-image: url(/img/logos/insta.png);
 
-  &:hover {
-    background-image: url(/img/logos/insta-negative.svg);
-  }
+  // &:hover {
+  //   background-image: url(/img/logos/insta-negative.svg);
+  // }
 }
 
 .bg-argyle .logo.insta,
 .dark-bg .logo.insta {
-  background-image: url(/img/logos/insta-white.svg);
+  background-image: url(/img/logos/insta.png);
 }
 
 .logo.amc {

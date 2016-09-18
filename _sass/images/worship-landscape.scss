@@ -1,0 +1,20 @@
+@media (orientation: landscape) {
+  .bg-worship {
+    background-image: url(/img/worship/landscape.jpg);
+  }
+}
+@media (orientation: landscape) and (max-width: 1440px) {
+  .bg-worship {
+    background-image: url(/img/worship/landscape-1440.jpg);
+  }
+}
+@media (orientation: landscape) and (max-width: 1024px) {
+  .bg-worship {
+    background-image: url(/img/worship/landscape-1024.jpg);
+  }
+}
+@media (orientation: landscape) and (max-width: 768px) {
+  .bg-worship {
+    background-image: url(/img/worship/landscape-768.jpg);
+  }
+}
