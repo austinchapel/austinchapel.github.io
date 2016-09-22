@@ -1,0 +1,12 @@
+{
+  "hosting": {
+    "public": "_site",
+    "headers": [{
+      "source": "**/*.@(jpg|jpeg|gif|png|svg|js|css|ttf)",
+      "headers": [{
+        "key": "Cache-Control",
+        "value": "max-age=7200"
+      }]
+    }]
+  }
+}
