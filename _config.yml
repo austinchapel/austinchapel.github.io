@@ -64,3 +64,6 @@ exclude:
 app:
   ios: "https://itunes.apple.com/us/app/austin-chapel/id1150619078"
   android: "https://play.google.com/store/apps/details?id=com.pixelark.austinchapel"
+
+directions:
+  link: "https://www.google.com/maps/dir//Capitol+City+Comedy+Club,+8120+Research+Blvd,+Austin,+TX+78758/@30.3524708,-97.7176396,17z/data=!4m15!1m6!3m5!1s0x8644cbc94682a037:0xdb2a6ffe6a3d26d5!2sCapitol+City+Comedy+Club!8m2!3d30.3524708!4d-97.7154509!4m7!1m0!1m5!1m1!1s0x8644cbc94682a037:0xdb2a6ffe6a3d26d5!2m2!1d-97.7154509!2d30.3524708"
