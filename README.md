@@ -1,3 +1,40 @@
+## setup
+
+### to build/develop
+
+1. [Install Ruby Gems](http://guides.rubygems.org/rubygems-basics/) if you don't already have it
+
+2. Install Jekyll
+
+      gem install jekyll
+
+### to deploy
+
+1. [Install Node.js](https://nodejs.org/en/download/) which comes with  NPM
+
+2. Install the [Firebase CLI](https://www.npmjs.com/package/firebase-tools):
+
+      npm install -g firebase-tools
+
+## develop
+
+    jekyll serve
+
+Visit http://localhost:3000 . Save files and refresh to update.
+
+## deploy
+
+    # clean
+    rm -rf _site
+
+    # build
+    jekyll build
+
+    # deploy
+    firebase deploy
+
+Make sure to commit/push changes!
+
 ## colophon
 
 - https://www.lightstock.com/search?q=sam+ramsey
