@@ -1,0 +1,18 @@
+.bg-animal-encounters {
+  background-image: url(/img/sermon-series/animal-encounters/animal-encounters.jpg);
+}
+@media (max-width: 1440px) {
+  .bg-animal-encounters {
+    background-image: url(/img/sermon-series/animal-encounters/animal-encounters-1440.jpg);
+  }
+}
+@media (max-width: 1024px) {
+  .bg-animal-encounters {
+    background-image: url(/img/sermon-series/animal-encounters/animal-encounters-1024.jpg);
+  }
+}
+@media (max-width: 768px) {
+  .bg-animal-encounters {
+    background-image: url(/img/sermon-series/animal-encounters/animal-encounters-768.jpg);
+  }
+}
