@@ -1,0 +1,20 @@
+@media (orientation: landscape) {
+  .bg-architecture-of-truth {
+    background-image: url(/img/sermon-series/architecture-of-truth/landscape.jpg);
+  }
+}
+@media (orientation: landscape) and (max-width: 1440px) {
+  .bg-architecture-of-truth {
+    background-image: url(/img/sermon-series/architecture-of-truth/landscape-1440.jpg);
+  }
+}
+@media (orientation: landscape) and (max-width: 1024px) {
+  .bg-architecture-of-truth {
+    background-image: url(/img/sermon-series/architecture-of-truth/landscape-1024.jpg);
+  }
+}
+@media (orientation: landscape) and (max-width: 768px) {
+  .bg-architecture-of-truth {
+    background-image: url(/img/sermon-series/architecture-of-truth/landscape-768.jpg);
+  }
+}
