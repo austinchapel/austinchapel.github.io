@@ -6,11 +6,11 @@
 
 2. Install Jekyll
 
-    gem install jekyll
+        gem install jekyll
 
 3. Code
 
-    jekyll serve
+        jekyll serve
 
 Visit http://localhost:3000 . Save files and refresh to update.
 
@@ -20,18 +20,18 @@ Visit http://localhost:3000 . Save files and refresh to update.
 
 2. Install the [Firebase CLI](https://www.npmjs.com/package/firebase-tools):
 
-    npm install -g firebase-tools
+        npm install -g firebase-tools
 
 3. Deploy
 
-    # clean
-    rm -rf _site
+        # clean
+        rm -rf _site
 
-    # build
-    jekyll build
+        # build
+        jekyll build
 
-    # deploy
-    firebase deploy
+        # deploy
+        firebase deploy
 
 Make sure to commit/push changes!
 
