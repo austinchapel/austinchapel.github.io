@@ -1,0 +1,10 @@
+script: yes
+after_success: >-
+  curl \
+    -v \
+    -X DELETE \
+    "https://api.cloudflare.com/client/v4/zones/9bfa09e593be0b3196007f6723ddf67e/purge_cache" \
+    -H "X-Auth-Email: aaron.r.stacy@gmail.com" \
+    -H "X-Auth-Key: c2547eb745079dac9320b638f5e225cf483cc5cfdda41" \
+    -H "Content-Type: application/json" \
+    --data '{"purge_everything":true}'
