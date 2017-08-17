@@ -4,15 +4,19 @@
 
 1. [Install Ruby Gems](http://guides.rubygems.org/rubygems-basics/) if you don't already have it
 
-2. Install Jekyll
+2. Install Jekyll if you don't already have it
 
         gem install jekyll
 
 3. Code
 
         jekyll serve
+        
+        # if you're using bundle + github 4 desktop:
+        cd ~/Documents/GitHub/austinchapel.github.io
+        bundle exec jekyll serve
 
-Visit http://localhost:3000 . Save files and refresh to update.
+Visit http://localhost:4000 . Save files and refresh to update.
 
 ### to deploy
 
