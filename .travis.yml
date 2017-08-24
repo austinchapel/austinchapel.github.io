@@ -1,10 +1,5 @@
-script: yes
-after_success: >-
-  curl \
-    -v \
-    -X DELETE \
-    "https://api.cloudflare.com/client/v4/zones/9bfa09e593be0b3196007f6723ddf67e/purge_cache" \
-    -H "X-Auth-Email: aaron.r.stacy@gmail.com" \
-    -H "X-Auth-Key: c2547eb745079dac9320b638f5e225cf483cc5cfdda41" \
-    -H "Content-Type: application/json" \
-    --data '{"purge_everything":true}'
+script: true
+after_success: _src/bin/purgecache
+env:
+  global:
+    secure: k7KSxHsNE+WYwygZkPAywBsH0Wn3xFAm0TUyRzJk+JBlfSR4c9UvDE4mOQzTgNr8Tym6tIPB7GuDGg55cDlZCFDTY83WbN45gUlZzOArcQpzIw91eW1jAtm1EencowsO4DNkYKaRKVNsbPzhpg/DmI4wl/AC3N7LWtRPh4shz7OhMx1U09gmm/Zt9uaGGietXcMNKWs/zWEK9FGog8O9hiVmBpcUmxgLXxyT3i8iApNF1h6yqe8kyEqjC7J9c6AB91gRnNL0yhhBXJqM8G8LRYsq5i1hNp98oLNU/DYbJD/22m5zq2nJcQCvxJiZN7virVkOJXxGzHbKfkctReVHJEeIFeLmGOPKBv0xJJCkuFkaaJIG+/MeQx1ueHozFoTAh1oDJI2udTdY47QrBC17BLVdqFfWhpEVD71lr8H64qe3O5Fd4x7mXfk2Xs0/3XE8hTinopsRN5kqp2AwC4s0uepUrDRwRXSPjmTjrQ0UkqDV8V/ZqiWJxS9iG+Klj19X7CW4WgF1Wix0h//4QlANnRutpbyZjfvUWOJGwC0fpVHGHrIq8r+mOCPMFiQojexE+alZTdrPM4hj7Kbr9LPjvazX1okEH1mW30zJqUu7YDIMLkQkUckyunCrnFqUCcxqsDDmynK3GxfpYNDzTa7yZ4pyXRBMT3okmqf58Y2cS3g=
