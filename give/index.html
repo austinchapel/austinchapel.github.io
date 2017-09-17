@@ -30,17 +30,11 @@ description: >-
     </cite>
   </blockquote>
 
-  <button class=tithely-give-btn data-church-id="30098">
-    Give online with Tithe.ly &#10140;
-  </button>
+  {% include tithely-give-button.html class="tithely-give-btn" text="Give online with Tithe.ly &#10140;" %}
 
   <p class=smaller>
   Austin Chapel is a 501(c)(3) non-profit organization.
   </p>
 </main>
 
-<script src="https://tithe.ly/widget/v2/give.js?3"></script>
-<script>
-  var config = {};
-  var tw = create_tithely_widget(config);
-</script>
+{% include tithely-give-script.html %}

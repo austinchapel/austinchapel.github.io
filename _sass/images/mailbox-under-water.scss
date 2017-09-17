@@ -1,0 +1,23 @@
+.bg-mailbox-under-water {
+  background-image: url(/img/mailbox-under-water/mailbox-under-water.jpg);
+}
+@media (max-width: 2048px) {
+  .bg-mailbox-under-water {
+    background-image: url(/img/mailbox-under-water/mailbox-under-water-2048.jpg);
+  }
+}
+@media (max-width: 1440px) {
+  .bg-mailbox-under-water {
+    background-image: url(/img/mailbox-under-water/mailbox-under-water-1440.jpg);
+  }
+}
+@media (max-width: 1024px) {
+  .bg-mailbox-under-water {
+    background-image: url(/img/mailbox-under-water/mailbox-under-water-1024.jpg);
+  }
+}
+@media (max-width: 768px) {
+  .bg-mailbox-under-water {
+    background-image: url(/img/mailbox-under-water/mailbox-under-water-768.jpg);
+  }
+}

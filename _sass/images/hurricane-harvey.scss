@@ -1,0 +1,18 @@
+.bg-hurricane-harvey {
+  background-image: url(/img/hurricane-harvey/hurricane-harvey.jpg);
+}
+@media (max-width: 1440px) {
+  .bg-hurricane-harvey {
+    background-image: url(/img/hurricane-harvey/hurricane-harvey-1440.jpg);
+  }
+}
+@media (max-width: 1024px) {
+  .bg-hurricane-harvey {
+    background-image: url(/img/hurricane-harvey/hurricane-harvey-1024.jpg);
+  }
+}
+@media (max-width: 768px) {
+  .bg-hurricane-harvey {
+    background-image: url(/img/hurricane-harvey/hurricane-harvey-768.jpg);
+  }
+}

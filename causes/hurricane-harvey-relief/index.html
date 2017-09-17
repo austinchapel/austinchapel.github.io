@@ -1,0 +1,160 @@
+---
+layout: default
+title: Hurricane Harvey Relief
+give: /give/
+extra_css: |
+  .hero-button-container {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-bottom: 5rem;
+  }
+
+  .hero-button {
+    background-color: white;
+    border: 0.5rem solid black;
+    padding: 0.5rem;
+    width: 15rem;
+  }
+
+  .hero-button a {
+    border: none;
+    color: black;
+  }
+
+  .hero-button + .hero-button {
+    margin-left: 2rem;
+  }
+
+  @media (max-width: 579px) {
+    .hero-button + .hero-button {
+      margin-left: 0;
+    }
+
+    .hero-button-container {
+      margin-bottom: 3rem;
+    }
+  }
+
+  .hard-sell {
+    font-size: 6rem;
+    padding: 0.16em;
+    margin-top: 0;
+    font-weight: bold;
+    text-align: left;
+    letter-spacing: 0.03em;
+    line-height: 0.9em;
+    text-transform: uppercase;
+  }
+
+  .hard-sell small {
+    text-transform: none;
+    font-weight: normal;
+  }
+
+  .tithely-give-btn {
+    border-radius: 0;
+  }
+
+  @media (max-width: 520px) {
+    .hard-sell {
+      font-size: 3.7rem;
+    }
+  }
+---
+
+<header class="fullscreen bg bg-mailbox-under-water">
+  <h1 class=hard-sell>
+    <small class=over-text>200,000 Homes</small><br/>
+    <small class=over-text>Hurt by Hurricane Harvey</small>
+  </h1>
+
+  <div class="absolute text-center hero-button-container"
+      style=" ">
+
+    {% include tithely-give-button.html class="tithely-give-btn give-button hero-button inline-block" text="Donate now &#10140;" %}
+
+    <!-- <div class="inline-block give-button hero-button"> -->
+    <!--   <a href="{{ page.event }}">Refugee Sunday &#10140;</a> -->
+    <!-- </div> -->
+  </div>
+</header>
+
+{% include nav.html %}
+
+<main>
+  <div class="abstract bg-concrete">
+    <p>
+      Hurricane Harvey has done more damage than any storm in history save for Katrina. It has <a href="http://www.nbcdfw.com/news/local/Hurricane-Harvey-Death-Toll-Hits-70-442918503.html">claimed 70 lives</a>, affected <a href="https://www.thebalance.com/hurricane-harvey-facts-damage-costs-4150087">13 million people</a>, and will cost an estimated <a href="http://thehill.com/homenews/sunday-talk-shows/349038-abbott-harvey-recovery-will-cost-probably-150-to-180-billion">$180 billion</a>.
+    </p>
+
+    <h2><a href="https://www.thebalance.com/hurricane-harvey-facts-damage-costs-4150087">The Facts</a></h2>
+
+    <ul style="line-height: 1.5em;">
+      <li>
+        203,000 homes damaged, 12,700 destroyed.
+      </li>
+
+      <li>
+        37,000 people displaced from their homes.
+      </li>
+
+      <li>
+        1,000,000 vehicles damaged beyond repair.
+      </li>
+    </ul>
+  </div>
+
+  <hr />
+
+  <div class="bg fullscreen fullscreen-black bg-destroyed-port-aransas-condo">
+    <blockquote>
+      <span class=over-text>I was naked and you clothed me, I was sick and you
+      visited me, I was in prison and you came to me.</span>
+
+      <cite class=no-dash><span class=over-text>Matthew 25:36</span></cite>
+    </blockquote>
+  </div>
+
+  <hr />
+
+  <div class="abstract bg-concrete">
+    <p>
+      We believe that God calls us to <a href="https://www.esv.org/Galatians+6:2/">bear eachother's burdens</a>. We are motivated by the truth that <a href="https://www.esv.org/2+Corinthians+12:9-10">He is strong in our weakness</a>.
+    </p>
+  </div>
+
+  <hr />
+
+  <div class="bg halfscreen bg-hurricane-harvey">
+    <h1 class=hard-sell>
+      <small class=over-text>You can help</small>
+    </h1>
+
+  </div>
+
+  <hr />
+
+  <div class="abstract bg-argyle dark-bg">
+    <a style="" href="{{ page.give }}"><h2>Give</h2></a>
+
+    <p>
+      Meet the most urgent needs of those affected in a tangible way. Give to
+      provide life-saving essentials.
+    </p>
+
+    {% include tithely-give-button.html class="tithely-give-btn give-button inline-block" text="Donate now &#10140;" %}
+
+    <!-- <h2>Act</h2> -->
+
+    <!-- <p></p> -->
+
+    <h2>Pray</h2>
+
+    <p>
+      <a href="https://www.biblegateway.com/passage/?search=John+15%3A7-8&version=ESV">Prayer changes things</a>. Remember the victims of this crisis in your prayers.
+    </p>
+  </div>
+</main>
+
+{% include tithely-give-script.html %}
