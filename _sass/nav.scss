@@ -51,7 +51,6 @@ nav a:visited {
 
 nav .logo.amc {
   margin-left: 0;
-  margin-bottom: -4px; // fml
 }
 
 .nav-wrapper {
@@ -164,10 +163,6 @@ nav.open .hamburger .line {
     left: 0;
     top: 0;
     bottom: 0;
-  }
-
-  nav .logo.amc {
-    margin-bottom: 0; // still, fml.
   }
 }
 
