@@ -27,6 +27,8 @@
 
   <body class="{{ page.body-classes }}">
 
+  <script>{% include js/check-if-font-is-cached.js %}</script>
+
   {{ content }}
 
   {% if !page.no_footer %}

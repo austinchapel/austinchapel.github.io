@@ -4,5 +4,6 @@
 
   document.fonts.ready.then(function() {
     document.body.className += " font-loaded";
+    localStorage.setItem('lastFontLoad', Date.now());
   });
 })();
