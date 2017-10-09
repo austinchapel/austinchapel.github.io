@@ -1,8 +1,12 @@
 @import "variables";
 @import "mixins";
 
+body {
+  h1, h2, h3                { font-family: $title-font-family; }
+  &.font-loaded h1, h2, h3  { font-family: $title-font-family-loaded; }
+}
+
 h1, h2, h3 {
-  font-family: $title-font-family;
   font-weight: 500;
 }
 

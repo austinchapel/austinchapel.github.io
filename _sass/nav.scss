@@ -28,12 +28,14 @@ nav {
   height: $nav-line-height;
 }
 
+body nav a              { font-family: $title-font-family; }
+body.font-loaded nav a  { font-family: $title-font-family-loaded; }
+
 nav a {
   text-decoration: none;
   color: white;
   line-height: $nav-line-height;
   font-size: $nav-font-size;
-  font-family: $title-font-family;
   text-transform: uppercase;
   margin-left: $nav-inter-link-spacing;
   vertical-align: middle;

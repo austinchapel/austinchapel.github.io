@@ -119,22 +119,8 @@ cite {
   text-align: right;
 }
 
-
-.index-logo {
-  max-width: 40%;
-}
-
-@media screen and (max-height: 480px) {
-  .index-logo {
-    max-width: 12%;
-  }
-}
-
-@media screen and (max-height: 800px) {
-  .index-logo {
-    max-width: 40%;
-  }
-}
+             .sunday-info a { font-family: $title-font-family; }
+.font-loaded .sunday-info a { font-family: $title-font-family-loaded; }
 
 .sunday-info {
   background-color: black;
@@ -151,39 +137,31 @@ cite {
   }
 
   a {
-    font-family: $title-font-family;
     color: $accent-color;
   }
 }
 
 @media screen and (min-width: 375px) {.sunday-info {font-size: .8rem;}}
 
+.font-loaded .new-logo { font-family: $font-family-loaded; }
+
+body {
+                .after-font-loads  { display: none; }
+  &.font-loaded .after-font-loads  { display: block; }
+  &.font-loaded .before-font-loads { display: none; }
+}
+
 .new-logo {
-  font-size: 3rem;
-  padding: 0 .167em .111em;
-  background-color: black;
-  display: inline-block;
-  color: white;
   text-transform: uppercase;
-  letter-spacing: 0.0889em;
-  font-family: $logo-font-family;
+  background-color: black;
+  padding: 1rem 0;
 
-  .make-it-pop-tho {
+  .austin, .chapel {
     color: $accent-color;
-    padding-left: 0.0556em;
-  }
-
-  .cheesy-sentence-fragment {
-    font-size: .2778em;
-    text-align: right;
-    color: #B2B2B2;
-    letter-spacing: 0.12em;
-    margin-top: -0.6em;
-    padding-right: 0.15em;
   }
 }
 
-@media screen and (min-width: 375px) {.new-logo {font-size: 3.5rem;}}
-@media screen and (min-width: 660px) {.new-logo {font-size:   6rem;}}
-@media screen and (min-width: 930px) {.new-logo {font-size:   9rem;}}
+@media screen and (min-width: 375px) {.new-logo {font-size: 1.8rem; margin-bottom: 1rem;}}
+@media screen and (min-width: 660px) {.new-logo {font-size:   2rem; margin-bottom: 2rem;}}
+@media screen and (min-width: 930px) {.new-logo {font-size:   3rem; margin-bottom: 3rem;}}
 
