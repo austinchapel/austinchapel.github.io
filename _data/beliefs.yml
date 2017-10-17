@@ -2,13 +2,13 @@ code:
 - tagline: Jesus Above All
   description: It's about him, not us.
 - tagline: A Better Culture
-  description: We strive for a culture of Love and Grace.
+  description: We cultivate a culture of Love and Grace.
 - tagline: Spirit Reliance
-  description: Through the Holy Spirit we find God's strength and victory.
+  description: We rely on the Holy Spirit for God’s strength and victory.
 - tagline: Sola Scriptura
   description: The scripture is our guide on all matters of life and belief.
 - tagline: Welcome to the Family
-  description: We are more than just community, we are family.
+  description: We are more than community, we are family.
 - tagline: The Last Will Be First
   description: We come to serve, not to be served.
 - tagline: Mission Always
@@ -16,7 +16,7 @@ code:
 - tagline: Lines Open
   description: Pray, pray, and then pray more!
 - tagline: Hands Open
-  description: We give generously and regularly, our possesions are God's.
+  description: Our possessions are not our own so we give generously and regularly.
 - tagline: Hearts Open
   description: We accept all people as Christ does, come as you are.
 - tagline: Stand Up
@@ -27,12 +27,11 @@ code:
 doctrine:
 - summary: The Bible is the word of God.
   full: >
-    The Scriptures (66 books of the old and new Testaments) are true,
-    authoritative and divinely inspired by the Holy Spirit while written by
-    men. The Scriptures are complete and are not to be added to or taken from.
-    They are given to us to better know God&apos;s eternal plan and story and
-    to grow in relationship with Him. The Bible was given to man for guidance
-    and it is the final authority to all matters concerning life and faith.
+    We believe the Scriptures of the Old and New Testaments are true,
+    authoritative, divinely inspired and without error. Men were moved by the
+    Spirit of God to write the very words of Scripture. God gave scripture to
+    man for guidance, and it is the final authority on all matters concerning
+    life and faith.
   references:
   - text: 2 Timothy 3:16
     link: >
@@ -44,11 +43,11 @@ doctrine:
     link: >
       https://www.biblegateway.com/passage/?search=John+17%3A17&version=ESV
 
-- summary: There is one true God who exists in three persons.
+- summary: In a triune God who exists in three persons.
   full: >
-    There is only one true and eternal God who is Creator and Ruler of all. He
-    is one in essence and exists in three distinct persons Father, Son and Holy
-    Spirit. God is one in nature and essence but three in works and substance.
+    We believe in one personal God who is one in essence and exists in three
+    distinct persons Father, Son, and Holy Spirit. God is one in nature and
+    essence but three in works and substance.
   references:
   - text: Exodus 34:6-7
     link: >
@@ -66,15 +65,12 @@ doctrine:
     link: >
       https://www.biblegateway.com/passage/?search=2+Corinthians+13%3A14&version=ESV
 
-- summary: Jesus is God, creator, and our savior.
+- summary: Jesus was born of a virgin and is Lord and Savior.
   full: >
-    Jesus is God and has existed eternally as the Son of God. Jesus is the
-    creator and holds all things together with divine power and is worthy of
-    all praise and glory. Just over two thousand years ago Jesus came to earth
-    as a man. Born of the virgin Mary, He lived on earth and existed as fully
-    man and fully God. He lived as the exact imprint of God's nature being
-    perfect in all ways. He then was crucified and rose from the dead on the
-    third day.
+    We believe Jesus is the eternal Son of God. Born of the virgin Mary Jesus
+    lived as fully man and fully God. He is the exact imprint of God's nature,
+    perfect and sinless. Jesus was crucified for the sin of the world and rose
+    from the dead on the third day defeating sin and death.
   references:
   - text: John 1:14
     link: >
@@ -92,14 +88,13 @@ doctrine:
     link: >
       https://www.biblegateway.com/passage/?search=1+Timothy+1%3A15&version=ESV
 
-- summary: The Holy Spirit is God and dwells in the believer.
+- summary: The Holy Spirit is God and indwells the believer.
   full: >
-    The Holy Spirit is the third person of the Trinity and is equally God. The
-    Holy Spirit has eternally existed like the Father and Son and lives in all
-    believers as an assurance of our salvation in Christ. The Holy Spirit
-    convicts the world of sin and points humanity towards Jesus. The Holy
-    Spirit also intercedes for the saints, illuminates Scripture, helps in our
-    weakness, and gives the believer spiritual gifts to minister.
+    We believe the Holy Spirit is the third person of the Trinity and is
+    equally God. The Holy Spirit regenerates and indwells every believer as an
+    assurance of our salvation, convicts the world of sin, points humanity
+    towards Christ, intercedes for the saints, illuminates Scripture, helps in
+    our weakness, and gives the believer spiritual gifts to minister.
   references:
   - text: Acts 5:3-4
     link: >
@@ -122,9 +117,9 @@ doctrine:
 
 - summary: God created all from nothing.
   full: >
-    God created the heavens and the earth from nothing as told in Genesis.
-    Creation was a creative act of God and not a random process. He created all
-    as part of His will and for His glory.
+    We believe God created the heavens and the earth from nothing as told in
+    Genesis. Creation was a creative act of God and not a random process. He
+    created all as part of His will and for His glory.
   references:
   - text: Genesis 2:4
     link: >
@@ -139,12 +134,38 @@ doctrine:
     link: >
       https://www.biblegateway.com/passage/?search=Colossians+1%3A16-17&version=ESV
 
+- summary: God created man in His image.
+  full: >
+    God created man in his own Image. Humanity was made for relationship with
+    God and to cultivate the world. We exist for his glory and to worship Him.
+  references:
+  - text: Genesis 1:26-27
+    link: >
+      https://www.biblegateway.com/passage/?search=Genesis+1%3A26-27&version=ESV
+  - text: John 1:10-13
+    link: >
+      https://www.biblegateway.com/passage/?search=John+1%3A10-13&version=ESV
+  - text: John 14:23
+    link: >
+      https://www.biblegateway.com/passage/?search=John+14%3A23&version=ESV
+  - text: John 15:5
+    link: >
+      https://www.biblegateway.com/passage/?search=John+15%3A5&version=ESV
+  - text: James 4:8
+    link: >
+      https://www.biblegateway.com/passage/?search=James+4%3A8&version=ESV
+  - text: Revelation 3:20
+    link: >
+      https://www.biblegateway.com/passage/?search=Revelation+3%3A20&version=ESV
+  - text: Psalms 84:11
+    link: >
+      https://www.biblegateway.com/passage/?search=Psalms+84%3A11&version=ESV
+
 - summary: Lucifer rebelled and was cast out of heaven.
   full: >
-    God created Angels to be spiritual worshippers in heaven. They have there
-    own personal identities and role in God’s creation. Lucifer was an angel
-    who desired to be like God. He and &frac13; of the angels rebelled against
-    God and were cast out of Heaven. Lucifer and the fallen angels are enemies
+    God created Angels to be worshippers in heaven.  Lucifer was an angel who
+    desired to be like God, he and one-third of the angels rebelled against God
+    and were thus cast out of Heaven. Lucifer and the fallen angels are enemies
     of God and the Church.
   references:
   - text: Isaiah 14:14-20
@@ -163,35 +184,12 @@ doctrine:
     link: >
       https://www.biblegateway.com/passage/?search=Ephesians+6%3A11-12&version=ESV
 
-- summary: God created humans in His image.
+- summary: Sin entered the world through Adam and Eve's disobedience.
   full: >
-    God created man with a purpose and for relationship with Him. From the
-    beginning, mankind has had the responsibility to rule and take care of the
-    world, as well to obey God and love Him. Man was created to give God glory
-    and be worshippers of Him.
-  references:
-  - text: John 1:10-13
-    link: >
-      https://www.biblegateway.com/passage/?search=John+1%3A10-13&version=ESV
-  - text: John 14:23
-    link: >
-      https://www.biblegateway.com/passage/?search=John+14%3A23&version=ESV
-  - text: James 4:8
-    link: >
-      https://www.biblegateway.com/passage/?search=James+4%3A8&version=ESV
-  - text: Revelation 3:20
-    link: >
-      https://www.biblegateway.com/passage/?search=Revelation+3%3A20&version=ESV
-  - text: Psalms 84:11
-    link: >
-      https://www.biblegateway.com/passage/?search=Psalms+84%3A11&version=ESV
-
-- summary: Sin entered the world through Adam's disobedience.
-  full: >
-    When tempted by the Serpent, Adam and Eve disobeyed God and brought sin
-    into this world. By this, all of mankind has been born into a sinful world,
-    slaves to sin, both because of the inherited Sin of Adam and because of our
-    own personal decisions to sin. God, being just and holy, must punish sin.
+    When tempted by the Serpent (Lucifer), Adam and Eve disobeyed God and
+    brought sin into this world. Because of this, all humanity has been born
+    into a sinful world, slaves of sin. God, being just and holy, must punish
+    sin. The punishment for sin is death and eternity in hell.
   references:
   - text: Genesis 3
     link: >
@@ -221,16 +219,13 @@ doctrine:
     link: >
       https://www.biblegateway.com/passage/?search=Galations+5%3A16-17&version=ESV
 
-- summary: Jesus came to earth being born of a virgin.
-
-- summary: Jesus lived a perfect life to be the perfect sacrifice.
+- summary: Salvation is through faith in Christ alone.
   full: >
-    Jesus came to the earth to live a perfect life worthy to be a perfect
-    sacrifice for sin. Jesus, at the end of His perfect life on earth, was
-    crucified for all of mankind's sin. Jesus bore our sins upon the cross and
-    anyone who believes this will receive salvation and be rid of the penalty
-    of sin, which is death. Through Christ's death and resurrection on the
-    third day, we can receive eternal life and enter relationship with God.
+    We believe that salvation from sin and death is through faith in Christ
+    alone. The blood of Jesus Christ shed on the cross provides the only way
+    for forgiveness of sin and his resurrection on the third day the only way
+    to eternal life. God freely offers salvation and eternal life to all who
+    believe and profess Christ as their Lord and Savior.
   references:
   - text: 1 Peter 1:18-19
     link: >
@@ -254,19 +249,14 @@ doctrine:
     link: >
       https://www.biblegateway.com/passage/?search=Romans+8%3A38-39&version=ESV
 
-- summary: Jesus was crucified for the sins of the World.
-
-- summary: Jesus rose on the third day, conquering sin and death.
-
 - summary: The church are those who have accepted Jesus as Lord and Savior.
   full: >
-    The Church is made up of those believe the gospel and have received Christ
-    as their Lord and Savior. We exist to glorify God with Christ as our
-    foundation and leader. We have been saved by his grace and mercy and are
-    eternally grateful. We serve Him out of thankfulness for all that he has
-    done for us. Through the power of the Holy Spirit living in us, we are
-    being transformed to be more and more Christ like. We are his witnesses to
-    the world and serve him and invite others to do so as well.
+    We believe the Church are those who believe the gospel and have received
+    Christ as their Lord and Savior. We have been saved by His grace and mercy
+    and are eternally grateful. We serve Him out of thankfulness for all that
+    He has done. Through the power of the Holy Spirit living in us, we are
+    being transformed to be more and more like Christ. We are his witnesses to
+    the world and serve Him with good works and spreading the good news.
   references:
   - text: 1 Peter 2:5
     link: >
@@ -284,18 +274,16 @@ doctrine:
     link: >
       https://www.biblegateway.com/passage/?search=Acts+2%3A42&version=ESV
 
-- summary: The Holy Spirit empowers the church with all spiritual gifts.
-
-- full: >
+- summary: In the practice of Baptism and the Lord's Supper.
+  full: >
     Baptism and the Lord’s Supper are both sacraments that have been practiced
     by Christians since the time of the Apostles. Baptism exists as a sign to
-    show the world personal faith in Christ. Out of obedience to His command,
-    we get baptized as a symbol to show our death with Christ and our new life
-    in Christ. Likewise, the Lord’s Supper, which was in-stated by Christ by
-    the breaking of bread and partaking of wine, is practiced to remember the
-    Lord, and what He did for us in His death on the Cross. Believers should
-    frequently practice the Lord’s Supper as a reminder of the beauty and glory
-    of the gospel.
+    display faith in Christ publicly. Out of obedience to His command, we get
+    baptized as a symbol of our death with Christ and our new life in Christ.
+    Likewise, the Lord’s Supper, which was instituted by Christ by the breaking
+    of bread and partaking of wine, is practiced to remember His sacrifice on
+    the Cross. Believers should frequently practice the Lord’s Supper as a
+    reminder of the beauty and glory of the gospel.
   references:
     - text: Matthew 28:19
       link: >
@@ -309,10 +297,11 @@ doctrine:
 
 - summary: Jesus will one day return in glory with all power.
   full: >
-    Jesus ascended to heaven after his resurrection and is creating a new home
-    for us. He will one day return to glorify his church for eternal life,
-    establish His Kingdom and to judge those who reject His saving work, with
-    eternal separation from Him.
+    Jesus ascended into heaven after his resurrection and is creating a new
+    home for us. He will one day return to glorify his church in the
+    resurrection unto eternal life, establish His Kingdom, and judge those who
+    reject His saving work. We believe that our eternal destination of either
+    heaven or hell is determined by our response to the Lord Jesus Christ.
   references:
   - text: John 14:3
     link: >
