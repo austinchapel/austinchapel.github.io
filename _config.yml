@@ -10,12 +10,16 @@ insta: https://www.instagram.com/visitaustinchapel/
 facebook: https://www.facebook.com/visitaustinchapel/
 
 people:
+  steven:
+    email: steven@austinchapel.org
   aaron:
     email: aaron.r.stacy@gmail.com
   alan:
     email: allanalarcona14@gmail.com
   tim:
     email: tmontgomery1964@gmail.com
+  jay:
+    email: jdnielsen45@gmail.com
 
 nav:
 - text: Home
@@ -26,7 +30,7 @@ nav:
   url: /gatherings/
 - text: Causes
   url: /causes/
-- text: Media
+- text: Sermons
   url: https://networkcmo.com/austinchapel
 - text: Give
   url: /give/

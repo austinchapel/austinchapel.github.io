@@ -123,7 +123,7 @@ cite {
 .font-loaded .sunday-info a { font-family: $title-font-family-loaded; }
 
 .sunday-info {
-  background-color: black;
+  background-color: $nav-background-color;
   display: inline-block;
   color: white;
   margin-top: .5em;
@@ -153,7 +153,7 @@ body {
 
 .new-logo {
   text-transform: uppercase;
-  background-color: black;
+  background-color: $nav-background-color;
   padding: 1rem 0;
 
   .austin, .chapel {
