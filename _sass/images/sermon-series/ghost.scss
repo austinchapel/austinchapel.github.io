@@ -1,0 +1,18 @@
+.bg-ghost {
+  background-image: url(/img/sermon-series/ghost/landscape.jpg);
+}
+@media (max-width: 1440px) {
+  .bg-ghost {
+    background-image: url(/img/sermon-series/ghost/landscape-1440.jpg);
+  }
+}
+@media (max-width: 1024px) {
+  .bg-ghost {
+    background-image: url(/img/sermon-series/ghost/landscape-1024.jpg);
+  }
+}
+@media (max-width: 768px) {
+  .bg-ghost {
+    background-image: url(/img/sermon-series/ghost/landscape-768.jpg);
+  }
+}
