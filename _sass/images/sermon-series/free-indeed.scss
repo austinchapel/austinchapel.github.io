@@ -1,0 +1,18 @@
+.bg-free-indeed {
+  background-image: url(/img/sermon-series/free-indeed/landscape.png);
+}
+@media (max-width: 1440px) {
+  .bg-free-indeed {
+    background-image: url(/img/sermon-series/free-indeed/landscape-1440.png);
+  }
+}
+@media (max-width: 1024px) {
+  .bg-free-indeed {
+    background-image: url(/img/sermon-series/free-indeed/landscape-1024.png);
+  }
+}
+@media (max-width: 768px) {
+  .bg-free-indeed {
+    background-image: url(/img/sermon-series/free-indeed/landscape-768.png);
+  }
+}
